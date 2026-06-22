@@ -1,12 +1,16 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Garden Quest Wiki - Codes, Crops & Release Date",
+  "short_name": "Garden Quest",
+  "description": "Garden Quest Wiki tracks Roblox release news, codes, crops, quests, pets, fishing, gear, and beginner tips so players can prepare before launch.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "entertainment"],
+  "theme_color": "#2bbf66",
+  "background_color": "#f7fff4",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
