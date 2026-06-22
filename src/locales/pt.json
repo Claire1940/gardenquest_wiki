@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guia",
+    "release": "Lançamento",
+    "codes": "Códigos",
+    "quests": "Missões",
+    "pets": "Pets",
+    "fishing": "Pesca",
+    "items": "Itens"
+  }
+}

@@ -1,0 +1,180 @@
+import { Map, Target, Sparkles, Trophy, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Missões Diárias de Garden Quest: Guia de Configuração para 2026 e Rotas Rápidas",
+  description: "Prepare-se para as missões diárias de Garden Quest no Roblox! Aprenda a otimizar as missões dos gnomos, usar equipamentos de fazenda e traçar rotas eficientes para obter o máximo de recompensas de lançamento.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Daily+Quests+Guide",
+  date: "2026-06-22",
+  author: "Equipe do Wiki de Garden Quest"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Otimize as rotinas diárias** priorizando missões diárias de alto rendimento no Garden Quest logo após fazer login todos os dias.
+- **Utilize equipamentos de mobilidade** como a Scooter de Nabo para reduzir drasticamente o tempo de viagem entre os gnomos de missão.
+- **Equipe pets ativos** como o Unicórnio para aumentar suas chances de colher plantações raras de arco-íris.
+- **Foque em gnomos específicos** para desbloquear decorações exclusivas, ferramentas e recompensas de progressão agrícola de forma eficiente.
+- **Equilibre suas atividades** entre o plantio de nabos, pesca em lagos e melhorias na loja de equipamentos para um crescimento constante.
+</Callout>
+
+<Section icon={Map} title="Missões Diárias de Garden Quest: Visão Geral do Sistema">
+
+O altamente antecipado lançamento de Garden Quest em 27 de junho de 2026 traz uma aventura de fazenda nova e aconchegante para a plataforma Roblox. Desenvolvido pelo Garden Quest Studio, esta experiência mistura gerenciamento agrícola, coleção de pets, pesca e decoração de casa em um ciclo de progressão unificado. No centro desse ciclo está o sistema de missões diárias, que serve como o principal motor para ganhar moedas de progressão, desbloquear sementes raras e obter materiais de melhoria de alto nível.
+
+Entender como as **missões diárias de garden quest** funcionam antes do lançamento oficial é essencial para os jogadores que desejam maximizar sua eficiência no primeiro dia. Ao contrário dos simuladores de fazenda padrão, onde o progresso é determinado apenas pela colheita repetitiva, este jogo recompensa o jogo estruturado. Os objetivos diários incentivam os jogadores a explorar todos os aspectos de sua propriedade virtual, desde a pesca em águas profundas até a localização de gnomos NPCs esquivos espalhados pelo mapa.
+
+<CardGrid cols={3}>
+  <Card title="Objetivos de Cultivo">
+    - **Cultivo de Plantações**: Plante e colha culturas específicas como nabos.
+    - **Manutenção do Solo**: Limpe ervas daninhas e regue os lotes regularmente.
+    - **Caça a Mutações**: Cultive variantes raras de arco-íris de plantas padrão.
+  </Card>
+  <Card title="Tarefas de Pesca">
+    - **Coleção de Espécies**: Pegue peixes específicos em lagos designados.
+    - **Gerenciamento de Iscas**: Utilize diferentes tipos de iscas para atrair espécimes raros.
+    - **Ciclo Econômico**: Troque capturas diretamente por fichas específicas de missão.
+  </Card>
+  <Card title="Entregas dos Gnomos">
+    - **Interação com NPCs**: Localize gnomos doadores de missões escondidos no mapa.
+    - **Entrega de Itens**: Transporte mercadorias colhidas para coordenadas específicas.
+    - **Recompensas Cosméticas**: Desbloqueie decorações e luzes exclusivas para a casa.
+  </Card>
+</CardGrid>
+
+Para ajudar você a se preparar para o lançamento, a tabela a seguir descreve as categorias de missões diárias esperadas, seus requisitos principais e as recompensas de progressão estimadas com base em imagens de prévia e atualizações dos desenvolvedores.
+
+| Categoria da Missão | Objetivo Típico | Recompensa Principal | Impacto na Progressão |
+| :--- | :--- | :--- | :--- |
+| **Dedo Verde** | Colher 15 Nabos | Sementes Iniciais & Ouro | Alto dimensionamento de cultivo |
+| **Missão de Pescador** | Pegar 3 Peixes Comuns | Isca de Grau Médio | Desbloqueia pontos de pesca avançados |
+| **Favor do Gnomo** | Entregar colheitas ao Gnomo Ancião | Decoração de Jardim Exclusiva | Desbloqueia personalização da casa |
+| **Melhoria de Equipamento** | Melhorar uma ferramenta na Loja | Fichas de Melhoria | Aumenta a velocidade de coleta |
+
+<Callout type="info" title="Aviso de Lançamento">
+As missões diárias resetam a cada 24 horas. Para garantir que você não perca recursos valiosos de progressão, sempre resgate as recompensas das missões concluídas no menu do jogador antes do horário de reset diário do servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Missões de Gnomos e Mecânicas de NPCs">
+
+Um componente central do ciclo de missões diárias envolve a interação com a população local de gnomos. Esses NPCs peculiares estão posicionados por todo o mapa do jardim, cada um representando uma facção diferente da economia do jogo. Visitá-los diariamente é a maneira mais rápida de adquirir moedas especializadas que não podem ser obtidas através das vendas padrão de plantações.
+
+De acordo com as prévias oficiais compartilhadas no [Discord de Garden Quest](https://discord.gg/gardenquest), os gnomos não ficam apenas parados; eles exigem engajamento ativo. Alguns gnomos pedirão para você limpar ervas daninhas invasoras ao redor de suas moradias, enquanto outros exigirão entregas agrícolas de alta qualidade. Atender a essas demandas é fundamental para aumentar sua reputação com a comunidade e desbloquear ferramentas avançadas na Loja de Equipamentos.
+
+| Gnomo NPC | Região do Mapa | Itens Preferidos | Recompensa Única |
+| :--- | :--- | :--- | :--- |
+| **Gnomo Ancião** | Lote Inicial | Nabos Maduros | Baú de Recompensa de Bronze |
+| **Gnomo Pescador** | Lago Central | Capturas de Água Doce | Melhorias de Isca de Prata & Anzol |
+| **Gnomo da Floresta** | Borda da Floresta | Frutas Silvestres & Ervas | Elixires de Crescimento para plantações |
+| **Gnomo Artesão** | Loja de Equipamentos | Ferro Bruto & Pedra | Cupons de desconto para ferramentas |
+
+<Callout type="tip" title="Dica de Mestre: Guarde Seus Nabos">
+Não venda toda a sua colheita de nabos para la loja geral imediatamente. Guarde uma pequena reserva de nabos normais e de alta qualidade em seu baú de armazenamento, pois eles são frequentemente solicitados pelo Gnomo Ancião para entregas diárias no início do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Otimização de Rota Rápida para Missões Diárias">
+
+Para aproveitar ao máximo suas sessões de jogo, estabelecer uma rota diária otimizada é altamente recomendado. Concluir suas **missões diárias de garden quest** de forma eficiente libera tempo para focar em objetivos de longo prazo, como expandir suas terras agrícolas, decorar sua casa ou criar pets raros.
+
+Ao combinar ferramentas de mobilidade com conjuntos estratégicos de pets, você pode reduzir significativamente o tempo das tarefas diárias. Por exemplo, utilizar a Scooter de Nabo — um item de mobilidade exclusivo apresentado nas prévias oficiais dos desenvolvedores — permite que você atravesse o mapa em alta velocidade, tornando as entregas dos gnomos muito fáceis.
+
+<Steps>
+  <Step num="1" title="Colher e Replantar">
+    Comece sua sessão no seu lote inicial. Colha todas as culturas maduras, regue o solo seco e replante imediatamente sementes de nabo para manter seu ciclo de produção funcionando enquanto estiver fora.
+  </Step>
+  <Step num="2" title="Equipar Seus Companheiros">
+    Abra o menu de pets e equipe até três companheiros ativos. Para missões, uma configuração que consiste em um Cervo (para velocidade de coleta), um Robin (para detecção de itens) e um Unicórnio (para mutações de plantações de arco-íris) é altamente recomendada.
+  </Step>
+  <Step num="3" title="Montar e Coletar">
+    Equipe sua Scooter de Nabo do inventário de equipamentos. Pilote ao longo do perímetro do mapa para visitar os Gnomos de Missão ativos, aceitando todos os objetivos diários disponíveis de uma só vez.
+  </Step>
+  <Step num="4" title="Executar as Tarefas Diárias">
+    Agrupe suas tarefas por localização. Conclua seus objetivos de pesca no lago central primeiro, depois limpe as ervas daninhas perto da borda da floresta e, finalmente, colete quaisquer materiais silvestres necessários para as entregas.
+  </Step>
+  <Step num="5" title="Entregar e Melhorar">
+    Retorne aos gnomos para entregar suas missões concluídas. Leve o ouro e as fichas ganhas para a Loja de Equipamentos para comprar melhorias de ferramentas, garantindo que sua próxima corrida seja ainda mais rápida.
+  </Step>
+</Steps>
+
+| Companheiro / Equipamento | Categoria do Item | Bônus Passivo | Utilidade na Missão |
+| :--- | :--- | :--- | :--- |
+| **Scooter de Nabo** | Equipamento de Mobilidade | +50% de Velocidade de Movimento | Reduz o tempo de viagem entre NPCs distantes |
+| **Pet Unicórnio** | Companheiro Mítico | Dobra a Chance de Mutação Arco-Íris | Ajuda a concluir missões de colheita de alto valor |
+| **Pet Robin** | Companheiro Padrão | +10% de Rendimento de Sementes | Aumenta a eficiência de recursos por lote |
+| **Regador de Ferro** | Melhoria de Ferramenta | Rega 3 lotes simultaneamente | Reduz drasticamente o tempo de preparação da plantação |
+
+<Callout type="success" title="Bônus de Sinergia">
+Equipar um conjunto completo de 3/3 pets desbloqueia bônus passivos de grupo comunitário se você for um membro registrado do [Grupo Roblox Garden Quest](https://www.roblox.com/share/g/124192767). Certifique-se de vincular sua conta antes do lançamento do jogo em 27 de junho.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maximizando Rendimentos Diários: Plantações, Pesca & Melhorias de Equipamentos">
+
+Concluir suas tarefas diárias é apenas metade da batalha; saber como reinvestir suas recompensas é o que separa jardineiros casuais de mestres agrícolas. Os recursos obtidos nas missões diárias devem ser sistematicamente direcionados para a melhoria de seus equipamentos e a otimização do layout de sua fazenda.
+
+A Loja de Equipamentos é o seu principal destino para a progressão. Melhorar sua espátula básica, regador e vara de pescar afeta diretamente a rapidez com que você pode coletar materiais para missões futuras. Além disso, economizar fichas para melhorias cosméticas permite que você personalize sua casa, adicionando móveis funcionais como baús de armazenamento e iluminação decorativa que aumentam o apelo visual de sua fazenda.
+
+<Checklist
+  id="daily-quest-checklist"
+  title="Marcos Essenciais do Dia de Lançamento:"
+  items={[
+    "Colha seu primeiro lote de nabos para garantir o ouro inicial.",
+    "Localize o Gnomo Ancião e aceite a missão diária introdutória.",
+    "Equipe pelo menos um pet companheiro para ativar bônus passivos de cultivo.",
+    "Visite a Loja de Equipamentos para inspecionar os preços da rotação diária de ferramentas.",
+    "Junte-se à comunidade oficial do Discord para acompanhar a liberação de códigos ao vivo."
+  ]}
+/>
+
+Para ajudar você a planejar sua progressão a longo prazo, consulte a tabela de marcos abaixo, que mapeia as atividades recomendadas e as prioridades de equipamentos para sua primeira semana no jardim.
+
+| Fase de Progressão | Foco Recomendado | Prioridade de Equipamento | Meta de Missão Diária |
+| :--- | :--- | :--- | :--- |
+| **Início de Jogo (Nível 1-5)** | Cultivo de nabos & coleta básica | Espátula Melhorada | Concluir 2 missões básicas de Gnomos |
+| **Meio de Jogo (Nível 6-10)** | Pesca em lagos & eclosão de pets | Vara de Pesca de Bambu | Concluir 4 missões diárias diversas |
+| **Fim de Jogo (Nível 11+)** | Mutações de culturas raras & decoração | Scooter de Nabo | Maximizar todas as categorias de missões |
+
+<Callout type="warning" title="Gerenciamento de Recursos">
+Evite gastar seu ouro inicial exclusivamente em decorações de casa. Priorize a melhoria de suas ferramentas agrícolas e a compra de sementes de alto rendimento primeiro, pois esses investimentos geram o capital necessário para itens cosméticos caros mais tarde.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes & Resolução de Problemas">
+
+Enquanto se prepara para mergulhar no mundo aconchegante de Garden Quest, você pode ter dúvidas sobre como otimizar sua rotina diária e resolver obstáculos comuns de progressão. Esta seção responde às principais dúvidas dos jogadores com base em anúncios oficiais dos desenvolvedores e discussões da comunidade.
+
+<Callout type="info" title="Suporte da Comunidade">
+Para obter as últimas atualizações, relatórios de bugs e interação direta com os desenvolvedores, visite o canal oficial do [YouTube do Garden Quest Studio](https://www.youtube.com/@GardenQuestStudio) ou junte-se à discussão da comunidade no servidor do Discord.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "A que horas as missões diárias de Garden Quest resetam?",
+    answer: "As missões diárias resetam a cada 24 horas às 00:00 UTC. Certifique-se de que todos os objetivos ativos sejam concluídos e as recompensas sejam resgatadas do seu registro de missões antes desse horário para evitar a perda de progresso."
+  },
+  {
+    question: "Como obtenho a Scooter de Nabo para minhas rotas diárias?",
+    answer: "A Scooter de Nabo é um item de mobilidade que pode ser adquirido na Loja de Equipamentos. Ela requer uma combinação de ouro ganho com a venda de colheitas e fichas especializadas obtidas ao concluir missões de gnomos."
+  },
+  {
+    question: "Os pets ajudam a concluir os objetivos das missões diárias?",
+    answer: "Sim. Equipar pets como o Unicórnio aumenta a probabilidade de colher culturas raras de arco-íris, que são frequentemente exigidas para entregas de missões diárias de alto nível."
+  },
+  {
+    question: "Posso concluir as missões diárias jogando sozinho?",
+    answer: "Com certeza. Embora juntar-se ao grupo oficial da comunidade no Roblox ofereça benefícios sociais e pequenos bônus passivos, todas as missões diárias foram totalmente projetadas para serem concluídas por jogadores solo."
+  }
+]} />
+
+</Section>

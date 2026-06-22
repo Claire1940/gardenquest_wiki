@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "garden-quest-codes",
+        "file": "garden-quest-codes"
+      }
+    ],
+    "fishing": [
+      {
+        "slug": "garden-quest-fish-list",
+        "file": "garden-quest-fish-list"
+      },
+      {
+        "slug": "garden-quest-fishing-guide",
+        "file": "garden-quest-fishing-guide"
+      },
+      {
+        "slug": "garden-quest-fishing-locations",
+        "file": "garden-quest-fishing-locations"
+      },
+      {
+        "slug": "garden-quest-fishing-rewards",
+        "file": "garden-quest-fishing-rewards"
+      },
+      {
+        "slug": "garden-quest-fishing-update",
+        "file": "garden-quest-fishing-update"
+      },
+      {
+        "slug": "garden-quest-fishing",
+        "file": "garden-quest-fishing"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "garden-quest-beginner-guide",
+        "file": "garden-quest-beginner-guide"
+      },
+      {
+        "slug": "garden-quest-gameplay",
+        "file": "garden-quest-gameplay"
+      },
+      {
+        "slug": "garden-quest-guide",
+        "file": "garden-quest-guide"
+      },
+      {
+        "slug": "garden-quest-how-to-play",
+        "file": "garden-quest-how-to-play"
+      },
+      {
+        "slug": "garden-quest-progression-guide",
+        "file": "garden-quest-progression-guide"
+      },
+      {
+        "slug": "garden-quest-starter-guide",
+        "file": "garden-quest-starter-guide"
+      },
+      {
+        "slug": "garden-quest-tips",
+        "file": "garden-quest-tips"
+      },
+      {
+        "slug": "garden-quest-walkthrough",
+        "file": "garden-quest-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "garden-quest-crops",
+        "file": "garden-quest-crops"
+      },
+      {
+        "slug": "garden-quest-items",
+        "file": "garden-quest-items"
+      },
+      {
+        "slug": "garden-quest-rewards",
+        "file": "garden-quest-rewards"
+      },
+      {
+        "slug": "garden-quest-seeds",
+        "file": "garden-quest-seeds"
+      },
+      {
+        "slug": "garden-quest-tools",
+        "file": "garden-quest-tools"
+      }
+    ],
+    "pets": [
+      {
+        "slug": "garden-quest-best-pets",
+        "file": "garden-quest-best-pets"
+      },
+      {
+        "slug": "garden-quest-pet-abilities",
+        "file": "garden-quest-pet-abilities"
+      },
+      {
+        "slug": "garden-quest-pet-guide",
+        "file": "garden-quest-pet-guide"
+      },
+      {
+        "slug": "garden-quest-pet-list",
+        "file": "garden-quest-pet-list"
+      },
+      {
+        "slug": "garden-quest-pet-rarity",
+        "file": "garden-quest-pet-rarity"
+      },
+      {
+        "slug": "garden-quest-pets",
+        "file": "garden-quest-pets"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "garden-quest-daily-quests",
+        "file": "garden-quest-daily-quests"
+      },
+      {
+        "slug": "garden-quest-harvest-oak-tree",
+        "file": "garden-quest-harvest-oak-tree"
+      },
+      {
+        "slug": "garden-quest-how-to-make-fountains",
+        "file": "garden-quest-how-to-make-fountains"
+      },
+      {
+        "slug": "garden-quest-quest-list",
+        "file": "garden-quest-quest-list"
+      },
+      {
+        "slug": "garden-quest-quest-rewards",
+        "file": "garden-quest-quest-rewards"
+      },
+      {
+        "slug": "garden-quest-quests",
+        "file": "garden-quest-quests"
+      },
+      {
+        "slug": "garden-quest-weekly-quests",
+        "file": "garden-quest-weekly-quests"
+      }
+    ],
+    "release": [
+      {
+        "slug": "garden-quest-launch-time",
+        "file": "garden-quest-launch-time"
+      },
+      {
+        "slug": "garden-quest-official-game",
+        "file": "garden-quest-official-game"
+      },
+      {
+        "slug": "garden-quest-official-trailer",
+        "file": "garden-quest-official-trailer"
+      },
+      {
+        "slug": "garden-quest-play-link",
+        "file": "garden-quest-play-link"
+      },
+      {
+        "slug": "garden-quest-release-date",
+        "file": "garden-quest-release-date"
+      },
+      {
+        "slug": "garden-quest-roblox",
+        "file": "garden-quest-roblox"
+      },
+      {
+        "slug": "garden-quest-trailer",
+        "file": "garden-quest-trailer"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "garden-quest-codes",
+        "file": "garden-quest-codes"
+      }
+    ],
+    "fishing": [
+      {
+        "slug": "garden-quest-fish-list",
+        "file": "garden-quest-fish-list"
+      },
+      {
+        "slug": "garden-quest-fishing-guide",
+        "file": "garden-quest-fishing-guide"
+      },
+      {
+        "slug": "garden-quest-fishing-locations",
+        "file": "garden-quest-fishing-locations"
+      },
+      {
+        "slug": "garden-quest-fishing-rewards",
+        "file": "garden-quest-fishing-rewards"
+      },
+      {
+        "slug": "garden-quest-fishing-update",
+        "file": "garden-quest-fishing-update"
+      },
+      {
+        "slug": "garden-quest-fishing",
+        "file": "garden-quest-fishing"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "garden-quest-beginner-guide",
+        "file": "garden-quest-beginner-guide"
+      },
+      {
+        "slug": "garden-quest-gameplay",
+        "file": "garden-quest-gameplay"
+      },
+      {
+        "slug": "garden-quest-guide",
+        "file": "garden-quest-guide"
+      },
+      {
+        "slug": "garden-quest-how-to-play",
+        "file": "garden-quest-how-to-play"
+      },
+      {
+        "slug": "garden-quest-progression-guide",
+        "file": "garden-quest-progression-guide"
+      },
+      {
+        "slug": "garden-quest-starter-guide",
+        "file": "garden-quest-starter-guide"
+      },
+      {
+        "slug": "garden-quest-tips",
+        "file": "garden-quest-tips"
+      },
+      {
+        "slug": "garden-quest-walkthrough",
+        "file": "garden-quest-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "garden-quest-crops",
+        "file": "garden-quest-crops"
+      },
+      {
+        "slug": "garden-quest-items",
+        "file": "garden-quest-items"
+      },
+      {
+        "slug": "garden-quest-rewards",
+        "file": "garden-quest-rewards"
+      },
+      {
+        "slug": "garden-quest-seeds",
+        "file": "garden-quest-seeds"
+      },
+      {
+        "slug": "garden-quest-tools",
+        "file": "garden-quest-tools"
+      }
+    ],
+    "pets": [
+      {
+        "slug": "garden-quest-best-pets",
+        "file": "garden-quest-best-pets"
+      },
+      {
+        "slug": "garden-quest-pet-abilities",
+        "file": "garden-quest-pet-abilities"
+      },
+      {
+        "slug": "garden-quest-pet-guide",
+        "file": "garden-quest-pet-guide"
+      },
+      {
+        "slug": "garden-quest-pet-list",
+        "file": "garden-quest-pet-list"
+      },
+      {
+        "slug": "garden-quest-pet-rarity",
+        "file": "garden-quest-pet-rarity"
+      },
+      {
+        "slug": "garden-quest-pets",
+        "file": "garden-quest-pets"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "garden-quest-daily-quests",
+        "file": "garden-quest-daily-quests"
+      },
+      {
+        "slug": "garden-quest-harvest-oak-tree",
+        "file": "garden-quest-harvest-oak-tree"
+      },
+      {
+        "slug": "garden-quest-how-to-make-fountains",
+        "file": "garden-quest-how-to-make-fountains"
+      },
+      {
+        "slug": "garden-quest-quest-list",
+        "file": "garden-quest-quest-list"
+      },
+      {
+        "slug": "garden-quest-quest-rewards",
+        "file": "garden-quest-quest-rewards"
+      },
+      {
+        "slug": "garden-quest-quests",
+        "file": "garden-quest-quests"
+      },
+      {
+        "slug": "garden-quest-weekly-quests",
+        "file": "garden-quest-weekly-quests"
+      }
+    ],
+    "release": [
+      {
+        "slug": "garden-quest-launch-time",
+        "file": "garden-quest-launch-time"
+      },
+      {
+        "slug": "garden-quest-official-game",
+        "file": "garden-quest-official-game"
+      },
+      {
+        "slug": "garden-quest-official-trailer",
+        "file": "garden-quest-official-trailer"
+      },
+      {
+        "slug": "garden-quest-play-link",
+        "file": "garden-quest-play-link"
+      },
+      {
+        "slug": "garden-quest-release-date",
+        "file": "garden-quest-release-date"
+      },
+      {
+        "slug": "garden-quest-roblox",
+        "file": "garden-quest-roblox"
+      },
+      {
+        "slug": "garden-quest-trailer",
+        "file": "garden-quest-trailer"
+      }
+    ]
+  },
+  "id": {
+    "codes": [
+      {
+        "slug": "garden-quest-codes",
+        "file": "garden-quest-codes"
+      }
+    ],
+    "fishing": [
+      {
+        "slug": "garden-quest-fish-list",
+        "file": "garden-quest-fish-list"
+      },
+      {
+        "slug": "garden-quest-fishing-guide",
+        "file": "garden-quest-fishing-guide"
+      },
+      {
+        "slug": "garden-quest-fishing-locations",
+        "file": "garden-quest-fishing-locations"
+      },
+      {
+        "slug": "garden-quest-fishing-rewards",
+        "file": "garden-quest-fishing-rewards"
+      },
+      {
+        "slug": "garden-quest-fishing-update",
+        "file": "garden-quest-fishing-update"
+      },
+      {
+        "slug": "garden-quest-fishing",
+        "file": "garden-quest-fishing"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "garden-quest-beginner-guide",
+        "file": "garden-quest-beginner-guide"
+      },
+      {
+        "slug": "garden-quest-gameplay",
+        "file": "garden-quest-gameplay"
+      },
+      {
+        "slug": "garden-quest-guide",
+        "file": "garden-quest-guide"
+      },
+      {
+        "slug": "garden-quest-how-to-play",
+        "file": "garden-quest-how-to-play"
+      },
+      {
+        "slug": "garden-quest-progression-guide",
+        "file": "garden-quest-progression-guide"
+      },
+      {
+        "slug": "garden-quest-starter-guide",
+        "file": "garden-quest-starter-guide"
+      },
+      {
+        "slug": "garden-quest-tips",
+        "file": "garden-quest-tips"
+      },
+      {
+        "slug": "garden-quest-walkthrough",
+        "file": "garden-quest-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "garden-quest-crops",
+        "file": "garden-quest-crops"
+      },
+      {
+        "slug": "garden-quest-items",
+        "file": "garden-quest-items"
+      },
+      {
+        "slug": "garden-quest-rewards",
+        "file": "garden-quest-rewards"
+      },
+      {
+        "slug": "garden-quest-seeds",
+        "file": "garden-quest-seeds"
+      },
+      {
+        "slug": "garden-quest-tools",
+        "file": "garden-quest-tools"
+      }
+    ],
+    "pets": [
+      {
+        "slug": "garden-quest-best-pets",
+        "file": "garden-quest-best-pets"
+      },
+      {
+        "slug": "garden-quest-pet-abilities",
+        "file": "garden-quest-pet-abilities"
+      },
+      {
+        "slug": "garden-quest-pet-guide",
+        "file": "garden-quest-pet-guide"
+      },
+      {
+        "slug": "garden-quest-pet-list",
+        "file": "garden-quest-pet-list"
+      },
+      {
+        "slug": "garden-quest-pet-rarity",
+        "file": "garden-quest-pet-rarity"
+      },
+      {
+        "slug": "garden-quest-pets",
+        "file": "garden-quest-pets"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "garden-quest-daily-quests",
+        "file": "garden-quest-daily-quests"
+      },
+      {
+        "slug": "garden-quest-harvest-oak-tree",
+        "file": "garden-quest-harvest-oak-tree"
+      },
+      {
+        "slug": "garden-quest-how-to-make-fountains",
+        "file": "garden-quest-how-to-make-fountains"
+      },
+      {
+        "slug": "garden-quest-quest-list",
+        "file": "garden-quest-quest-list"
+      },
+      {
+        "slug": "garden-quest-quest-rewards",
+        "file": "garden-quest-quest-rewards"
+      },
+      {
+        "slug": "garden-quest-quests",
+        "file": "garden-quest-quests"
+      },
+      {
+        "slug": "garden-quest-weekly-quests",
+        "file": "garden-quest-weekly-quests"
+      }
+    ],
+    "release": [
+      {
+        "slug": "garden-quest-launch-time",
+        "file": "garden-quest-launch-time"
+      },
+      {
+        "slug": "garden-quest-official-game",
+        "file": "garden-quest-official-game"
+      },
+      {
+        "slug": "garden-quest-official-trailer",
+        "file": "garden-quest-official-trailer"
+      },
+      {
+        "slug": "garden-quest-play-link",
+        "file": "garden-quest-play-link"
+      },
+      {
+        "slug": "garden-quest-release-date",
+        "file": "garden-quest-release-date"
+      },
+      {
+        "slug": "garden-quest-roblox",
+        "file": "garden-quest-roblox"
+      },
+      {
+        "slug": "garden-quest-trailer",
+        "file": "garden-quest-trailer"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "garden-quest-codes",
+        "file": "garden-quest-codes"
+      }
+    ],
+    "fishing": [
+      {
+        "slug": "garden-quest-fish-list",
+        "file": "garden-quest-fish-list"
+      },
+      {
+        "slug": "garden-quest-fishing-guide",
+        "file": "garden-quest-fishing-guide"
+      },
+      {
+        "slug": "garden-quest-fishing-locations",
+        "file": "garden-quest-fishing-locations"
+      },
+      {
+        "slug": "garden-quest-fishing-rewards",
+        "file": "garden-quest-fishing-rewards"
+      },
+      {
+        "slug": "garden-quest-fishing-update",
+        "file": "garden-quest-fishing-update"
+      },
+      {
+        "slug": "garden-quest-fishing",
+        "file": "garden-quest-fishing"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "garden-quest-beginner-guide",
+        "file": "garden-quest-beginner-guide"
+      },
+      {
+        "slug": "garden-quest-gameplay",
+        "file": "garden-quest-gameplay"
+      },
+      {
+        "slug": "garden-quest-guide",
+        "file": "garden-quest-guide"
+      },
+      {
+        "slug": "garden-quest-how-to-play",
+        "file": "garden-quest-how-to-play"
+      },
+      {
+        "slug": "garden-quest-progression-guide",
+        "file": "garden-quest-progression-guide"
+      },
+      {
+        "slug": "garden-quest-starter-guide",
+        "file": "garden-quest-starter-guide"
+      },
+      {
+        "slug": "garden-quest-tips",
+        "file": "garden-quest-tips"
+      },
+      {
+        "slug": "garden-quest-walkthrough",
+        "file": "garden-quest-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "garden-quest-crops",
+        "file": "garden-quest-crops"
+      },
+      {
+        "slug": "garden-quest-items",
+        "file": "garden-quest-items"
+      },
+      {
+        "slug": "garden-quest-rewards",
+        "file": "garden-quest-rewards"
+      },
+      {
+        "slug": "garden-quest-seeds",
+        "file": "garden-quest-seeds"
+      },
+      {
+        "slug": "garden-quest-tools",
+        "file": "garden-quest-tools"
+      }
+    ],
+    "pets": [
+      {
+        "slug": "garden-quest-best-pets",
+        "file": "garden-quest-best-pets"
+      },
+      {
+        "slug": "garden-quest-pet-abilities",
+        "file": "garden-quest-pet-abilities"
+      },
+      {
+        "slug": "garden-quest-pet-guide",
+        "file": "garden-quest-pet-guide"
+      },
+      {
+        "slug": "garden-quest-pet-list",
+        "file": "garden-quest-pet-list"
+      },
+      {
+        "slug": "garden-quest-pet-rarity",
+        "file": "garden-quest-pet-rarity"
+      },
+      {
+        "slug": "garden-quest-pets",
+        "file": "garden-quest-pets"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "garden-quest-daily-quests",
+        "file": "garden-quest-daily-quests"
+      },
+      {
+        "slug": "garden-quest-harvest-oak-tree",
+        "file": "garden-quest-harvest-oak-tree"
+      },
+      {
+        "slug": "garden-quest-how-to-make-fountains",
+        "file": "garden-quest-how-to-make-fountains"
+      },
+      {
+        "slug": "garden-quest-quest-list",
+        "file": "garden-quest-quest-list"
+      },
+      {
+        "slug": "garden-quest-quest-rewards",
+        "file": "garden-quest-quest-rewards"
+      },
+      {
+        "slug": "garden-quest-quests",
+        "file": "garden-quest-quests"
+      },
+      {
+        "slug": "garden-quest-weekly-quests",
+        "file": "garden-quest-weekly-quests"
+      }
+    ],
+    "release": [
+      {
+        "slug": "garden-quest-launch-time",
+        "file": "garden-quest-launch-time"
+      },
+      {
+        "slug": "garden-quest-official-game",
+        "file": "garden-quest-official-game"
+      },
+      {
+        "slug": "garden-quest-official-trailer",
+        "file": "garden-quest-official-trailer"
+      },
+      {
+        "slug": "garden-quest-play-link",
+        "file": "garden-quest-play-link"
+      },
+      {
+        "slug": "garden-quest-release-date",
+        "file": "garden-quest-release-date"
+      },
+      {
+        "slug": "garden-quest-roblox",
+        "file": "garden-quest-roblox"
+      },
+      {
+        "slug": "garden-quest-trailer",
+        "file": "garden-quest-trailer"
+      }
+    ]
+  }
+}

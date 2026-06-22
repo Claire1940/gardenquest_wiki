@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Garden Quest Fishing Locations: Setup Guide & Rewards",
+  description: "Discover all Garden Quest fishing locations, unlock methods, bait mechanics, and fish rewards in this launch guide for the upcoming Roblox adventure.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0284c7/fff?text=Garden+Quest+Fishing+Locations",
+  date: "2026-06-22",
+  author: "garden quest Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Activity**: Fishing serves as a standalone active economy loop that runs alongside your passive crop farming.
+- **Key Locations**: The Starter Pond and Garden Streams are the primary garden quest fishing locations revealed for launch.
+- **Essential Gear**: Purchase your starter rod and bait from the Gear Shop before attempting to cast your line.
+- **Rainbow Mutation**: Pair high-tier baits with the Mythic Unicorn companion pet to maximize your mutation yields.
+</Callout>
+
+<Section icon={Map} title="Garden Quest Fishing Locations & Map Layout">
+
+To maximize your progression efficiency in Garden Quest, identifying the best garden quest fishing locations is your first step on launch day. The game features distinct aquatic zones scattered across the interactive garden map, each offering unique fish species, drop rates, and environmental rewards. Positioning your farming plots near these watery hubs allows you to seamlessly alternate between watering crops and casting lines.
+
+| Fishing Zone | Unlock Requirement | Primary Fish Types | Catch Difficulty |
+| --- | --- | --- | --- |
+| Starter Pond | None (Default Zone) | Minnow, Common Carp | Very Easy |
+| Garden Stream | Level 5 Farming | River Trout, Catfish | Easy |
+| Hidden Lake | Gear Shop Key | Rainbow Salmon, Golden Eel | Hard |
+
+By understanding the layout of these zones, players can plan their daily routes to minimize travel time. The Starter Pond is located immediately adjacent to the initial plot land, making it the most accessible area for early-game grinding. As you level up your farming skills and acquire more advanced gear, transitioning to the Garden Stream and the Hidden Lake will yield significantly higher financial returns.
+
+<Callout type="info" title="Location Strategy">
+Set up your high-frequency crop plots close to the Starter Pond. This allows you to monitor crop growth timers while actively fishing, doubling your resource generation per minute.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Unlock Fishing & Use Bait">
+
+The fishing loop is a standalone system designed to complement your overall garden progression. Unlike crop farming, which requires waiting for seeds to mature, fishing offers an active gameplay alternative that provides immediate currency and upgrade materials. Follow these steps to unlock the system and start catching fish on launch day.
+
+<Steps>
+  <Step num="1" title="Visit the Gear Shop">
+    Locate the Gear Shop NPC near the central plaza to browse the available utility tools and starter rods.
+  </Step>
+  <Step num="2" title="Purchase the Basic Rod">
+    Spend your starting copper coins to purchase the Basic Fishing Rod and a small batch of Earthworms.
+  </Step>
+  <Step num="3" title="Equip Your Gear">
+    Open your player inventory, equip the rod to your active tool slot, and select your desired bait.
+  </Step>
+  <Step num="4" title="Cast and Reel">
+    Approach any valid water source, click to cast, and wait for the bobber to submerge before reeling.
+  </Step>
+</Steps>
+
+Using the correct bait is critical for targeting high-value species. While fishing without bait is possible, it significantly reduces your bite rate and limits your catches to common tier items. Refer to the table below to plan your bait purchases at the Gear Shop.
+
+| Bait Type | Cost (Coins) | Attraction Bonus | Mutation Rate |
+| --- | --- | --- | --- |
+| Earthworm | 5 | +10% Bite Rate | 0% |
+| Glowing Grub | 15 | +25% Bite Rate | +5% Rainbow |
+| Golden Beetle | 50 | +50% Bite Rate | +15% Rainbow |
+
+<Callout type="tip" title="Bait Conservation">
+Do not waste high-tier baits like Golden Beetles in the Starter Pond. Save them for the Hidden Lake where high-value species reside to maximize your return on investment.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fish Species Rarity & Market Values">
+
+Catches in Garden Quest are divided into distinct rarity tiers. Higher rarity fish sell for significantly more currency at the Gear Shop, which can then be reinvested into premium seeds like Turnips or mobility gear like the Turnip Scooter. 
+
+<CardGrid cols={3}>
+  <Card title="Common Tier">
+    - **Species**: Minnow, Carp
+    - **Bite Rate**: Very High
+    - **Value**: 10-25 Coins
+    - **Best Spot**: Starter Pond
+  </Card>
+  <Card title="Rare Tier">
+    - **Species**: Trout, Catfish
+    - **Bite Rate**: Moderate
+    - **Value**: 50-120 Coins
+    - **Best Spot**: Garden Stream
+  </Card>
+  <Card title="Mythic Tier">
+    - **Species**: Rainbow Salmon
+    - **Bite Rate**: Extremely Low
+    - **Value**: 500+ Coins
+    - **Best Spot**: Hidden Lake
+  </Card>
+</CardGrid>
+
+The following table details the baseline market values for each known fish species. Keep in mind that prices fluctuate slightly based on shop demand and active server events.
+
+| Fish Species | Rarity | Base Sell Value | Ideal Bait |
+| --- | --- | --- | --- |
+| Minnow | Common | 10 Coins | Earthworm |
+| River Trout | Rare | 60 Coins | Glowing Grub |
+| Golden Eel | Epic | 200 Coins | Golden Beetle |
+| Rainbow Salmon | Mythic | 500 Coins | Golden Beetle |
+
+<Callout type="success" title="Rainbow Mutations">
+Any fish caught has a baseline chance to mutate into a Rainbow variant. Equipping the Mythic Unicorn companion pet doubles this mutation chance, turning a standard catch into a high-value jackpot.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizing Your Fishing & Farming Economy">
+
+To progress rapidly through the early stages of Garden Quest, you must integrate fishing into your daily farming routine. While waiting for high-yield crops to mature, fishing fills the downtime and provides the liquid capital needed for continuous seed purchases and tool upgrades.
+
+<Checklist
+  id="fishing-goals"
+  title="Launch Day Fishing Milestones:"
+  items={[
+    "Unlock the Basic Fishing Rod from the Gear Shop",
+    "Locate and log all three primary fishing spots",
+    "Catch at least one Rare River Trout for the early-game quest",
+    "Save 500 coins to purchase the Turnip Scooter for faster travel"
+  ]}
+/>
+
+Upgrading your fishing rod is just as important as upgrading your watering can. Higher-tier rods increase the maximum tension limit, making it easier to reel in aggressive fish like the Golden Eel without snapping your line.
+
+| Upgrade Item | Price | Utility Benefit | Priority |
+| --- | --- | --- | --- |
+| Reinforced Rod | 300 Coins | Reduces reeling difficulty | High |
+| Turnip Scooter | 500 Coins | Increases map movement speed | Medium |
+| Fiberglass Rod | 1,200 Coins | Unlocks deep-water casting | Low |
+
+<Callout type="warning" title="Inventory Management">
+Fish do not stack in your inventory. Ensure you clear your bag at the Gear Shop before embarking on a long fishing trip to avoid leaving valuable catches behind.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+Navigating the waterways of Garden Quest can sometimes be tricky for beginners. Below are the most common questions regarding mechanics, locations, and reward optimization.
+
+<Callout type="info" title="Community Support">
+Join the official Garden Quest Discord channel to trade fishing tips, coordinate community events, and receive live updates directly from the developers.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Where are the best garden quest fishing locations for beginners?",
+    answer: "The Starter Pond located right next to your default garden plot is the best spot for beginners. It requires no level unlocks and features high bite rates for easy catches."
+  },
+  {
+    question: "How do I increase my chances of catching Rainbow fish?",
+    answer: "You can increase your Rainbow mutation rate by using Golden Beetle bait (+15% chance) and equipping the Mythic Unicorn companion pet, which doubles the mutation rate of all plants, fruits, and catches."
+  },
+  {
+    question: "Can I fish without bait in Garden Quest?",
+    answer: "Yes, you can cast your rod without equipping bait, but your bite rate will be significantly reduced, and you will only catch Common tier fish."
+  },
+  {
+    question: "Does weather or time of day affect fishing locations?",
+    answer: "Certain rare species like the Golden Eel have higher spawn rates during evening hours or rainy weather cycles at the Hidden Lake location."
+  }
+]} />
+
+</Section>

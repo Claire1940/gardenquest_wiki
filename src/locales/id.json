@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Panduan",
+    "release": "Rilis",
+    "codes": "Kode",
+    "quests": "Misi",
+    "pets": "Peliharaan",
+    "fishing": "Memancing",
+    "items": "Item"
+  }
+}

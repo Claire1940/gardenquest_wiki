@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cosecha de Robles en Garden Quest: Guía de Tala y Mejoras",
+  description: "Domina el ciclo de cosecha de robles en Garden Quest. Aprende dónde encontrar robles, cómo mejorar tus hachas en la Tienda de Herramientas y cómo usar la madera de roble para casas y decoraciones.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Harvest+Oak+Tree+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Garden Quest"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cosecha de robles en Garden Quest**: Cosechar madera de roble es esencial para fabricar decoraciones de casas premium y desbloquear herramientas avanzadas.
+- **Progresión de la Tienda de Herramientas**: Mejorar tu hacha inicial a bronce o acero reduce significativamente los tiempos de golpeo y aumenta el rendimiento de recursos.
+- **Principales usos de la madera**: Guarda tus troncos de roble para construir muebles personalizados, ampliar las casas de los jugadores y completar misiones de gnomos.
+- **Sinergia con mascotas**: Equipar mascotas que potencien la recolección de recursos puede optimizar tu eficiencia al talar madera durante las rutas de recolección al inicio del juego.
+</Callout>
+
+<Section icon={Map} title="Cosecha de Robles en Garden Quest: Ubicaciones y Conceptos Básicos">
+
+Para progresar rápidamente en Garden Quest, dominar el ciclo de **cosecha de robles en Garden Quest** es esencial para asegurar materiales de madera de alta calidad. Los robles son árboles de madera dura distintos y resistentes distribuidos por zonas específicas del mapa. A diferencia de las maderas blandas estándar, los robles tienen troncos más gruesos, corteza más oscura y copas densas de hojas verdes, lo que los hace fáciles de detectar una vez que sales de tu parcela inicial de cultivo.
+
+Comprender dónde aparecen estos valiosos recursos asegura que no pierdas el tiempo buscando sin rumbo. El juego cuenta con varias áreas distintas donde los robles crecen de forma natural, cada una con diferentes densidades y tiempos de regeneración.
+
+| Nombre de la Zona | Densidad de Robles | Tiempo de Regeneración | Nivel de Peligro | Hacha Recomendada |
+| --- | --- | --- | --- | --- |
+| Alrededores del Bosque | Baja | 3 Minutos | Seguro | Hacha Inicial |
+| Bosque de los Susurros | Media | 5 Minutos | Bajo | Hacha de Bronce |
+| Dosel del Bosque Profundo | Alta | 8 Minutos | Medio | Hacha de Acero |
+| Arboleda Antigua | Muy Alta | 12 Minutos | Alto | Hacha de Oro |
+
+El ciclo de tala está estrechamente ligado a la economía general de Garden Quest. Mientras que los cultivos como los nabos proporcionan un flujo constante de monedas, los recursos de madera como los troncos de roble son los bloques de construcción de tu propiedad. A medida que haces la transición desde las etapas de tutorial del inicio del juego hacia la planificación avanzada del diseño de la granja, asegurar un suministro confiable de madera de roble se convierte en una prioridad absoluta.
+
+<Callout type="success" title="Consejo de Aparición">
+Los robles en los Alrededores del Bosque son ideales para principiantes porque aparecen en zonas sin peligros, lo que te permite practicar el ritmo de tus golpes sin interrupciones.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Herramientas Necesarias: Hachas y Mejoras de la Tienda de Herramientas">
+
+Antes de salir a talar tu primer roble, debes visitar la Tienda de Herramientas local. Las herramientas iniciales estándar son ineficientes contra la densa madera dura de un tronco de roble. Mejorar tu equipo es la mejor inversión que puedes hacer durante tu primera semana de juego.
+
+La Tienda de Herramientas ofrece una variedad de herramientas, mejoras de progresión y artículos especiales como la Moto Nabo para ayudarte a recorrer el mapa. Priorizar las mejoras de tu hacha se traducirá directamente en tiempos de cosecha más rápidos y un mayor rendimiento de madera.
+
+| Nivel de Hacha | Precio de Compra | Velocidad de Tala | Rendimiento de Madera Adicional | Requisito de Desbloqueo |
+| --- | --- | --- | --- | --- |
+| Hacha Inicial | Gratis | 1.0x | Ninguno | Misión Inicial |
+| Hacha de Bronce | 500 Monedas | 1.5x | 10% de Probabilidad | Tala Nivel 5 |
+| Hacha de Acero | 1500 Monedas | 2.2x | 20% de Probabilidad | Tala Nivel 12 |
+| Hacha de Oro | 4500 Monedas | 3.5x | 35% de Probabilidad | Tala Nivel 20 |
+
+Mejorar tu hacha no solo ahorra tiempo; también conserva la resistencia de tu personaje. Cada golpe con un hacha de nivel inferior agota tu barra de energía más rápido en relación con el progreso realizado en el tronco del árbol. Al mejorar al menos a un Hacha de Bronce desde el principio, puedes talar arboledas enteras de robles antes de necesitar consumir alimentos o descansar.
+
+<CardGrid cols={3}>
+  <Card title="Estrategia Enfocada en la Velocidad">
+    - **Priorizar el Hacha de Bronce**: Ahorra tus monedas del inicio del juego para evitar compras cosméticas y comprar el Hacha de Bronce de inmediato.
+    - **Ritmo de golpeo**: Practica hacer doble clic en el punto máximo de la animación del golpe para maximizar tu velocidad de tala.
+  </Card>
+  <Card title="Estrategia Enfocada en el Rendimiento">
+    - **Objetivo del Hacha de Oro**: Apunta al Hacha de Oro para desbloquear el 35% de rendimiento de madera adicional, lo cual es crítico para proyectos de vivienda en el juego tardío.
+    - **Combinación de mascotas**: Empareja tus hachas de alto nivel con mascotas de recolección para acumular multiplicadores pasivos de recursos.
+  </Card>
+  <Card title="Integración de Movilidad">
+    - **Utilidad de la Moto Nabo**: Compra la Moto Nabo en la Tienda de Herramientas para viajar rápidamente entre las zonas de aparición de robles de alta densidad.
+    - **Transporte de troncos**: Minimiza el tiempo de inactividad por viaje conduciendo tu moto directamente a la estación de procesamiento más cercana.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Ruta de Mejora Profesional">
+No gastes tus primeras monedas en equipo decorativo hasta que hayas asegurado al menos un Hacha de Acero. El salto de eficiencia de Bronce a Acero ahorra horas de trabajo manual.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Paso a Paso: Cómo Cosechar Robles de Manera Eficiente">
+
+Talar madera dura requiere algo más que pararse junto a un tronco y mantener presionado el botón de acción. Para aprovechar al máximo cada árbol, debes seguir un enfoque estructurado que conserve la energía de tu personaje y maximice la obtención de madera.
+
+Al organizar tus sesiones de tala, puedes despejar arboledas enteras rápidamente y establecer una rutina de cosecha altamente rentable.
+
+<Steps>
+  <Step num="1" title="Equipar el Hacha Correcta">
+    Abre tu inventario y equipa tu hacha de mayor nivel. Asegúrate de que tu personaje no esté sosteniendo semillas ni cañas de pescar, ya que esto evitará que se active la acción de tala.
+  </Step>
+  <Step num="2" title="Localizar un Roble Maduro">
+    Viaja al Bosque de los Susurros o a los Alrededores del Bosque. Busca árboles con corteza marrón oscura y copas verdes anchas. Evita los retoños pequeños, ya que no producen troncos de roble.
+  </Step>
+  <Step num="3" title="Posicionarse y Golpear">
+    Párate directamente al lado del tronco del roble. Haz clic o toca el árbol para iniciar el golpe. Observa el medidor de golpe y calcula tus clics para dar en el punto verde ideal para obtener daño adicional.
+  </Step>
+  <Step num="4" title="Recolectar Troncos y Retoños">
+    Una vez que el roble caiga, recolecta los Troncos de Roble, Retoños de Roble y bellotas ocasionales que caigan. Los retoños se pueden volver a plantar en tu parcela personal para tener una fuente de madera sostenible.
+  </Step>
+</Steps>
+
+La mecánica del medidor de golpe es particularmente importante. Acertar consistentemente en el punto ideal puede reducir el número total de golpes necesarios para derribar un árbol hasta en un cuarenta por ciento. Esta mecánica recompensa el juego activo y evita que la tala se convierta en una tarea puramente pasiva y repetitiva.
+
+<Callout type="warning" title="Gestión de Energía">
+Talar robles consume resistencia. Si tu barra de energía llega a cero, tu velocidad de golpe disminuye en un 50%. Ten a mano alimentos para reponer rápidamente tu resistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Economía de la Madera de Roble: Vivienda, Mejoras y Misiones">
+
+La madera de roble es un recurso muy versátil en la economía de Garden Quest. Mientras que la madera blanda se utiliza para vallas básicas y senderos, la madera dura de roble es necesaria para estructuras duraderas, decoraciones del hogar de lujo y para completar misiones avanzadas.
+
+Invertir la madera cosechada en tu parcela del hogar aumenta tu puntuación de progresión general y desbloquea nuevas funciones de juego.
+
+| Categoría de Fabricación | Troncos de Roble Requeridos | Objeto Resultante | Valor de Progresión |
+| --- | --- | --- | --- |
+| Expansión de la Casa | 150 Troncos | Desbloqueo de Segunda Habitación | Alto |
+| Decoración de Lujo | 50 Troncos | Mesa de Comedor de Roble | Medio |
+| Accesorios de Exterior | 80 Troncos | Banco de Jardín | Medio |
+| Misiones Especiales | 30 Troncos | Entrega de Misión de Gnomo | Alto |
+
+Más allá de la construcción, la madera de roble juega un papel fundamental en las relaciones comunitarias. Los PNJ Gnomos locales publican con frecuencia peticiones en el tablón de anuncios del pueblo pidiendo envíos específicos de madera dura. Completar estas misiones es una de las formas más confiables de ganar semillas de flores raras y planos decorativos únicos que no se pueden comprar en las tiendas estándar.
+
+<Checklist
+  id="woodcutting-goals"
+  title="Lista de tareas diarias de tala:"
+  items={[
+    "Cosechar 100 Troncos de Roble del Bosque de los Susurros",
+    "Replantar 10 Retoños de Roble en tu parcela personal",
+    "Revisar la Tienda de Herramientas para ver descuentos diarios en herramientas",
+    "Entregar 30 Troncos de Roble al PNJ Gnomo para obtener monedas de bonificación"
+  ]}
+/>
+
+<Callout type="info" title="Misiones de Gnomos">
+El PNJ Gnomo solicita con frecuencia madera de roble a cambio de semillas raras y monedas. Mantén siempre un excedente de 50 troncos de roble en tu cofre de almacenamiento para completar estas misiones al instante.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tala Avanzada: Potenciadores de Compañeros y Mascotas">
+
+Para optimizar verdaderamente tu rutina de cosecha, debes utilizar el sistema de mascotas del juego. Las mascotas no son solo seguidores cosméticos; proporcionan poderosos potenciadores pasivos que pueden reducir drásticamente el tiempo dedicado a talar madera.
+
+Equipar la combinación correcta de mascotas antes de comenzar tu ruta de tala puede duplicar tu velocidad de recolección de recursos.
+
+| Nombre de la Mascota | Rareza | Efecto Primario | Sinergia de Tala |
+| --- | --- | --- | --- |
+| Ciervo | Común | +5% de Velocidad de Movimiento | Viaje más rápido entre árboles |
+| Petirrojo | Raro | +10% de Velocidad de Golpe | Animaciones de tala más rápidas |
+| Unicornio | Mítico | Duplica la Probabilidad de Arcoíris | Probabilidad de cosechar Madera Arcoíris rara |
+| Castor | Épico | +15% de Rendimiento de Madera | Aumenta directamente los troncos por árbol |
+
+A medida que avanzas, desbloquear ranuras de mascotas activas adicionales te permite acumular estas bonificaciones. Una configuración de tala totalmente optimizada utiliza un conjunto de tres mascotas diseñado para abordar la velocidad, el rendimiento y el tiempo de viaje simultáneamente. Esta sinergia transforma la tala de una tarea lenta y metódica en una ruta de cultivo increíblemente rápida y de alto rendimiento.
+
+<Callout type="tip" title="Configuraciones de Mascotas">
+Usa una configuración de 3/3 mascotas equipadas que consista en el Castor, el Petirrojo y el Ciervo para crear la mejor configuración de recolección de recursos. Esta combinación maximiza la velocidad, el rendimiento y la eficiencia de movimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor lugar para encontrar robles en Garden Quest?",
+    answer: "El mejor lugar para una cosecha constante de robles es el Bosque de los Susurros. Cuenta con una densidad media de robles con un tiempo de regeneración razonable de 5 minutos, lo que lo hace más seguro y accesible que el Dosel del Bosque Profundo."
+  },
+  {
+    question: "¿Cómo mejoro mi hacha para talar robles más rápido?",
+    answer: "Puedes mejorar tu hacha en la Tienda de Herramientas. Se recomienda encarecidamente ahorrar tus monedas del inicio del juego para comprar el Hacha de Bronce (500 monedas) o el Hacha de Acero (1500 monedas) para mejorar tu velocidad de tala."
+  },
+  {
+    question: "¿Puedo cultivar robles en mi propia parcela de jardín?",
+    answer: "Sí. Al cosechar robles maduros, tienen la probabilidad de soltar Retoños de Roble. Puedes plantar estos retoños en tu parcela personal para crear una granja de madera privada y sostenible."
+  },
+  {
+    question: "¿Cuál es el uso principal de la madera de roble en el juego?",
+    answer: "La madera de roble se utiliza principalmente para expansiones avanzadas de casas, la fabricación de muebles y decoraciones de alta calidad, y para completar misiones especiales del PNJ Gnomo que recompensan con semillas raras y monedas."
+  }
+]} />
+
+<Callout type="success" title="Listo para Talar">
+Ahora que conoces las ubicaciones, herramientas y estrategias para una cosecha eficiente, toma tu hacha de la Tienda de Herramientas y comienza a construir la parcela de jardín de tus sueños.
+</Callout>
+
+</Section>

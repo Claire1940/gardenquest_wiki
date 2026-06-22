@@ -10,7 +10,15 @@
       "twitterDescription": "Garden Quest Wiki tracks Roblox release news, codes, crops, quests, pets, fishing, gear, and beginner tips for the Roblox farming adventure."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "codes": "Codes",
+    "quests": "Quests",
+    "pets": "Pets",
+    "fishing": "Fishing",
+    "items": "Items"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -496,125 +504,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Garden Quest Guides",
-      "description": "Complete Garden Quest gameplay guides from beginner basics to advanced farming, pet, and fishing strategies.",
-      "metaTitle": "Garden Quest Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Garden Quest guides covering beginner tips, codes, crops, pets, fishing, gear, and expert tactics for mastering the Roblox farming adventure.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Garden Quest gameplay mechanics, farming strategies, codes, and progression. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "description": "Complete Garden Quest guides covering beginner setup, gameplay, progression, and walkthroughs for the Roblox farming adventure.",
+      "metaTitle": "Garden Quest Guides - Beginner Setup, Gameplay & Walkthroughs",
+      "metaDescription": "Master Garden Quest with complete guides: beginner setup, gameplay tips, progression, walkthroughs, and how to play the Roblox farming adventure.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Garden Quest Guides?",
+      "whatIsDescription": "Comprehensive Garden Quest guides covering gameplay mechanics, beginner setup, progression paths, and walkthroughs. Learn everything from your first seeds to advanced farming, pets, and fishing strategies.",
+      "why": "Why read Garden Quest guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand Garden Quest farming, pets, and fishing systems and avoid common beginner mistakes",
+        "step1Description": "Understand Garden Quest farming, pets, fishing, and progression systems and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to grow your garden and earn currency quickly",
+        "step2Description": "Follow proven paths to grow your garden, earn currency, and unlock gear quickly",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for crops, gear, and collection goals"
+        "step3Description": "Develop advanced tactics for crops, quests, pets, and collection goals"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Garden Quest Crafting",
-      "description": "Master Garden Quest seed combinations, crop crafting, and gear upgrades with recipes and strategies.",
-      "metaTitle": "Garden Quest Crafting - Seeds, Crops & Gear Recipes",
-      "metaDescription": "Master Garden Quest crafting with seed combinations, crop recipes, gear upgrades, and strategies for building a productive garden on Roblox.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Garden Quest crafting system covers seed combinations, crop processing, and gear upgrades. Experiment with seeds and materials to unlock better tools and rewards.",
-      "why": "Why master crafting?",
+    "release": {
+      "title": "Garden Quest Release",
+      "description": "Garden Quest release date, official trailer, Roblox community, Discord, and launch news for the upcoming farming adventure.",
+      "metaTitle": "Garden Quest Release Date, Trailer & Official Links",
+      "metaDescription": "Track the Garden Quest release date, official trailer, Roblox community, Discord, and launch news for the upcoming Roblox farming adventure.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the Garden Quest Release?",
+      "whatIsDescription": "Garden Quest release coverage tracks the official launch date, trailer, Roblox community, Discord, and platform news so players stay ready for the farming adventure's debut.",
+      "why": "Why track the Garden Quest release?",
       "whySteps": {
-        "step1Title": "Unlock Better Gear",
-        "step1Description": "Craft upgraded tools and gear that speed up your farming loop",
-        "step2Title": "Understand Crops",
-        "step2Description": "Learn which seeds and crops combine into higher-value harvests",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use seeds and currency efficiently to maximize output"
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Follow the official Garden Quest release date and trailer to play on day one",
+        "step2Title": "Use Official Links",
+        "step2Description": "Join the official Roblox community and Discord for safe launch access and updates",
+        "step3Title": "Stay Ahead",
+        "step3Description": "Get launch news, code drops, and early content as soon as it is confirmed"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Release Articles"
+    },
+    "codes": {
+      "title": "Garden Quest Codes",
+      "description": "Latest working Garden Quest codes for free rewards, plus active, expired, and official code sources at launch.",
+      "metaTitle": "Garden Quest Codes - Active Codes & Rewards",
+      "metaDescription": "Get free rewards with active Garden Quest codes. Track active codes, expired codes, and official code-drop sources for the Roblox farming adventure.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Garden Quest Codes?",
+      "whatIsDescription": "Garden Quest codes are redeemable strings posted by the developers that grant free rewards at launch. This hub tracks active codes, expired codes, and the official sources where codes are dropped.",
+      "why": "Why use Garden Quest codes?",
+      "whySteps": {
+        "step1Title": "Claim Free Rewards",
+        "step1Description": "Redeem active Garden Quest codes for free launch bonuses and currency",
+        "step2Title": "Avoid Expired Codes",
+        "step2Description": "Skip codes that no longer work and focus on the active ones",
+        "step3Title": "Use Official Sources",
+        "step3Description": "Follow the Discord, YouTube, and trailer for verified code drops"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "quests": {
+      "title": "Garden Quest Quests",
+      "description": "Garden Quest quest guides: quest list, daily and weekly quests, rewards, and step-by-step routes for every quest chain.",
+      "metaTitle": "Garden Quest Quests - Quest List, Daily & Weekly Quests",
+      "metaDescription": "Complete Garden Quest quest guides: full quest list, daily quests, weekly quests, rewards, and step-by-step routes for every quest chain in the Roblox farming adventure.",
+      "categoryLabel": "QUESTS",
+      "whatIs": "What are Garden Quest Quests?",
+      "whatIsDescription": "Garden Quest quests are objective chains that guide players through farming progression, NPC tasks, and special missions. This hub covers the quest list, daily quests, weekly quests, and quest rewards.",
+      "why": "Why follow Garden Quest quests?",
+      "whySteps": {
+        "step1Title": "Earn Steady Rewards",
+        "step1Description": "Complete daily and weekly quests for reliable currency and progression bonuses",
+        "step2Title": "Clear Quest Chains",
+        "step2Description": "Follow quest routes step by step to unlock new crops, pets, and areas",
+        "step3Title": "Avoid Getting Stuck",
+        "step3Description": "Use quest guides to solve objectives like harvesting oak trees and building fountains"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Quest Guides"
+    },
+    "pets": {
+      "title": "Garden Quest Pets",
+      "description": "Garden Quest pet guides: full pet list, rarities, abilities, and how to get the best pets for your farming loadout.",
+      "metaTitle": "Garden Quest Pets - Pet List, Rarities & Abilities",
+      "metaDescription": "Complete Garden Quest pet guides: full pet list, rarities, abilities, how to get pets, and the best pets to equip for farming and collection.",
+      "categoryLabel": "PETS",
+      "whatIs": "What are Garden Quest Pets?",
+      "whatIsDescription": "Garden Quest pets are equipable companions that support the farming loop and double as collection goals. This hub covers the pet list, rarities, abilities, and how to obtain each pet.",
+      "why": "Why collect Garden Quest pets?",
+      "whySteps": {
+        "step1Title": "Boost Your Farm",
+        "step1Description": "Equip pets with abilities that improve harvest, mutation, and collection outcomes",
+        "step2Title": "Build a Loadout",
+        "step2Description": "Mix pets by role to cover farming, collection, and Rainbow chance support",
+        "step3Title": "Complete Your Collection",
+        "step3Description": "Track pet rarities from common companions to Mythic pets like the Unicorn"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Pet Guides"
+    },
+    "fishing": {
+      "title": "Garden Quest Fishing",
+      "description": "Garden Quest fishing guides: how to unlock fishing, bait usage, full fish list, locations, and the best fishing rewards.",
+      "metaTitle": "Garden Quest Fishing - Fish List, Bait & Rewards",
+      "metaDescription": "Complete Garden Quest fishing guides: unlock fishing, use bait, find all fish, explore fishing locations, and earn the best fishing rewards in the Roblox farming adventure.",
+      "categoryLabel": "FISHING",
+      "whatIs": "What is Garden Quest Fishing?",
+      "whatIsDescription": "Garden Quest fishing is a standalone side activity separate from crop farming and pets. This hub covers fishing access, bait, the full fish list, fishing locations, and reward routes.",
+      "why": "Why go fishing in Garden Quest?",
+      "whySteps": {
+        "step1Title": "Collect Fish",
+        "step1Description": "Build your fish collection and complete pond-side objectives",
+        "step2Title": "Earn Rewards",
+        "step2Description": "Trade catches for currency, gear, and exclusive fishing rewards",
+        "step3Title": "Explore Locations",
+        "step3Description": "Find the best fishing spots and bait strategies for rare fish"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Fishing Guides"
     },
     "items": {
       "title": "Garden Quest Items",
-      "description": "Detailed Garden Quest item guides covering seeds, tools, gear, pets, and bait with usage tips.",
-      "metaTitle": "Garden Quest Items - Seeds, Tools, Gear & Pet Guide",
-      "metaDescription": "Complete Garden Quest item database including seeds, tools, gear, pets, and bait. Learn how to obtain and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for Garden Quest seeds, tools, gear, pets, and bait. Learn where to find items, how to use them, and the best combinations for your garden.",
-      "why": "Why check item guides?",
+      "description": "Garden Quest item guides: seeds, crops, tools, gear, and rewards with growth time, sell value, and usage tips.",
+      "metaTitle": "Garden Quest Items - Seeds, Crops, Tools & Gear",
+      "metaDescription": "Complete Garden Quest item database: seeds, crops, tools, gear, and rewards. Learn growth time, sell value, and the best items to use for your farming adventure.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What are Garden Quest Items?",
+      "whatIsDescription": "Garden Quest items cover seeds, crops, tools, gear, and rewards that shape the farming loop. This hub tracks item sources, growth time, sell value, and the best items for each progression stage.",
+      "why": "Why check Garden Quest items?",
       "whySteps": {
-        "step1Title": "Learn Item Sources",
-        "step1Description": "Discover where to find seeds, gear, pets, and bait in Garden Quest",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best tools, gear, and pets for your progression stage",
-        "step3Title": "Improve Your Garden",
-        "step3Description": "Equip the right items to farm, fish, and collect more efficiently"
+        "step1Title": "Pick the Best Crops",
+        "step1Description": "Compare seed growth time and sell value to maximize early profit",
+        "step2Title": "Upgrade Your Gear",
+        "step2Description": "Choose the right tools and gear to speed up farming and movement",
+        "step3Title": "Track Rewards",
+        "step3Description": "Learn where items drop and how to unlock rare crops and gear"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
-    },
-    "biomes": {
-      "title": "Garden Quest Areas",
-      "description": "Explore Garden Quest garden zones, fishing spots, shop areas, and resource locations.",
-      "metaTitle": "Garden Quest Areas - Garden Zones, Fishing Spots & Resources",
-      "metaDescription": "Explore Garden Quest areas including garden plots, fishing spots, gear shops, and resource locations. Find what you need and plan your farming routes.",
-      "categoryLabel": "WORLD AREAS",
-      "whatIs": "What are Areas?",
-      "whatIsDescription": "Guides to Garden Quest garden zones, fishing spots, shop areas, and resource locations. Learn what to expect and how to prepare for each part of your garden.",
-      "why": "Why explore areas?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate seeds, bait, gear, and pets specific to each area",
-        "step2Title": "Plan Routes",
-        "step2Description": "Move efficiently between your garden, shops, and fishing spots",
-        "step3Title": "Unlock Content",
-        "step3Description": "Discover new crops, pets, and features as you expand"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Areas"
-    },
-    "building": {
-      "title": "Garden Quest Housing",
-      "description": "Master Garden Quest houses, decorations, and garden layout for a cozy and organized plot.",
-      "metaTitle": "Garden Quest Housing - Houses, Decorations & Garden Layout",
-      "metaDescription": "Master Garden Quest housing with houses, home decorations, garden layouts, and cosmetic building techniques for your Roblox farming adventure.",
-      "categoryLabel": "HOUSING & DECOR",
-      "whatIs": "What is Housing?",
-      "whatIsDescription": "Guides to Garden Quest houses, home decoration, and garden layout. Learn to create a cozy, organized garden with lights, furniture, fountains, and more.",
-      "why": "Why decorate?",
-      "whySteps": {
-        "step1Title": "Create Your Space",
-        "step1Description": "Build a house and garden that feels like home",
-        "step2Title": "Organize Your Plot",
-        "step2Description": "Lay out crops, decor, and paths so your garden stays readable",
-        "step3Title": "Express Your Style",
-        "step3Description": "Use decorations to make your Garden Quest plot unique"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Housing Guides"
-    },
-    "support": {
-      "title": "Garden Quest Support",
-      "description": "Technical support, platform help, and troubleshooting for Garden Quest on Roblox.",
-      "metaTitle": "Garden Quest Support - Help, Fixes & Platform Guide",
-      "metaDescription": "Get support for Garden Quest including Roblox access help, common fixes, official links, and platform compatibility guidance.",
-      "categoryLabel": "SUPPORT & HELP",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Help with Garden Quest access, Roblox platform issues, official links, and common questions. Find fixes and the right official channels for help.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Access Issues",
-        "step1Description": "Resolve problems joining or loading Garden Quest on Roblox",
-        "step2Title": "Use Official Channels",
-        "step2Description": "Reach the Garden Quest Discord and Roblox community for help",
-        "step3Title": "Stay Updated",
-        "step3Description": "Track launch news, patches, and known issues"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
     }
   }
 }

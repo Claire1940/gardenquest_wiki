@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Pesca de Garden Quest: Configuração e Rotas de Farm",
+  description: "Domine o sistema de pesca em Roblox Garden Quest. Aprenda a localização dos lagos, melhorias de equipamentos, sinergias de pets e rotas de farm do primeiro dia para obter o máximo de ouro.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/15803d/fff?text=Fishing+Farming+Guide",
+  date: "2026-06-22",
+  author: "Equipe do Wiki de Garden Quest"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: Aprenda as mecânicas fundamentais do minijogo ativo e independente de pesca.
+- **Data de Lançamento**: Garden Quest lança oficialmente no Roblox em 27 de junho de 2026.
+- **Sinergia de Pets**: Equipe pets que aumentam a sorte, como o Unicórnio Mítico, para aumentar as chances de mutações raras.
+- **Prioridade de Equipamento**: Melhore sua vara de pesca na Loja de Equipamentos e compre a Scooter de Nabo para viagem rápida.
+- **Ciclo de Economia**: Combine sessões de pesca ativa com o cultivo passivo de plantações para maximizar o ouro por hora.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral do Sistema de Pesca e Mecânicas Básicas">
+
+A aguardada aventura de fazenda no Roblox, Garden Quest, está programada para ser lançada em 27 de junho de 2026. Embora plantar plantações e gerenciar seu solo formem a base de sua propriedade, o sistema de pesca independente oferece um ciclo de jogabilidade ativo e altamente envolvente. Este **guia de pesca de garden quest** detalha como aproveitar a economia aquática para financiar o jardim dos seus sonhos, comprar ferramentas de alto nível e completar registros de coleções raras.
+
+Ao contrário do cultivo de plantações, que depende de temporizadores passivos, a pesca é um minijogo ativo que recompensa o tempo de reação e a preparação. Os jogadores lançam suas linhas em corpos d'água designados ao redor do mapa, esperam por uma fisgada e completam um comando mecânico para recolher a linha com a captura. Este sistema funciona de forma independente dos seus canteiros de plantação, o que significa que você pode pescar enquanto espera que seus nabos cresçam.
+
+Para entender como a pesca se posiciona dentro da economia mais ampla, compare-a diretamente com o cultivo de plantações:
+
+| Recurso | Sistema de Pesca | Cultivo de Plantações |
+| :--- | :--- | :--- |
+| **Tipo de Atividade** | Minijogo ativo | Baseado em temporizador passivo |
+| **Entrada Principal** | Energia, Isca, Varas | Sementes, Água, Canteiros |
+| **Sinergia de Pets** | Bônus de sorte de companheiros | Velocidade de crescimento, Chance de Arco-Íris |
+| **Progressão** | Melhorias de vara, Coleção | Níveis de semente, Expansão de canteiros |
+| **Fator de Risco** | Médio (depende do tempo de reação) | Baixo (colheita garantida) |
+
+<Callout type="info" title="Integração do Sistema">
+A pesca está intimamente ligada ao sistema de progressão de pets. Enquanto você pesca ativamente, seus companheiros equipados fornecem bônus passivos de atributos, como aumento de sorte, taxas de fisgada mais rápidas ou maiores rendimentos de ouro ao vender suas capturas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhorias na Loja de Equipamentos e Itens de Pesca">
+
+Para começar sua jornada de pesca, você deve visitar a Loja de Equipamentos local. A Loja de Equipamentos serve como o centro principal para melhorar suas ferramentas utilitárias, comprar itens de mobilidade como a Scooter de Nabo e adquirir varas de pesca mais fortes. Melhorar seu equipamento é essencial se você deseja capturar espécies de águas profundas que arrebentam facilmente as linhas iniciais básicas.
+
+As varas determinam a raridade máxima dos peixes que você pode pescar, bem como a dificuldade do minijogo de recolhimento de linha. Varas básicas são baratas, mas têm dificuldades contra peixes pesados e agressivos. Varas de nível superior apresentam zonas ideais de tensão mais amplas e velocidades de recolhimento mais rápidas. Além disso, o uso de iscas especializadas aumenta sua taxa de encontro com famílias específicas de peixes ou aumenta a taxa geral de mutação.
+
+Aqui está uma visão geral dos principais equipamentos e melhorias disponíveis na Loja de Equipamentos:
+
+| Nome do Item | Categoria | Uso Principal | Custo de Aquisição |
+| :--- | :--- | :--- | :--- |
+| **Vara Inicial** | Equipamento Utilitário | Capturar peixes básicos de lago | Grátis / Missão inicial |
+| **Vara de Fibra de Vidro** | Equipamento Utilitário | Aumenta o limite de tensão da linha | Ouro de nível médio |
+| **Vara de Carbono** | Equipamento Utilitário | Alarga a zona de sucesso do recolhimento | Ouro de nível alto |
+| **Isca Premium** | Consumível | Aumenta a taxa de fisgada de peixes raros | Loja de Equipamentos |
+| **Scooter de Nabo** | Equipamento de Mobilidade | Viagem rápida entre lagos | Loja de Equipamentos |
+
+<Callout type="warning" title="Prioridade de Melhoria">
+Não negligencie sua mobilidade. Embora melhorar sua vara seja crucial para capturar peixes raros, comprar a Scooter de Nabo cedo na Loja de Equipamentos reduz significativamente o tempo de viagem entre os seus canteiros de fazenda e os melhores pontos de pesca.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Otimizando sua Rota do Guia de Pesca de Garden Quest">
+
+Para aproveitar ao máximo suas sessões de jogo ativo, você deve estabelecer uma rota de viagem eficiente. O mapa apresenta várias zonas de pesca distintas, que vão desde lagos de jardim rasos a rios agitados e lagos florestais escondidos. Cada zona abriga um conjunto único de vida aquática, categorizado por raridade e valor de mercado. 
+
+Ao planejar sua rota diária, tente minimizar o tempo de inatividade. O ciclo ideal envolve verificar seus canteiros de plantação, plantar sementes de crescimento rápido como nabos e, em seguida, viajar para o ponto de pesca mais próximo para pescar ativamente enquanto suas plantações crescem. 
+
+<CardGrid cols={3}>
+  <Card title="Pesca em Lago">
+    - **Localização**: Adjacente aos canteiros iniciais
+    - **Espécies-Alvo**: Peixes pequenos comuns a raros
+    - **Melhor Para**: Ouro rápido no início do jogo
+  </Card>
+  <Card title="Pesca em Rio">
+    - **Localização**: Fronteira leste do mapa
+    - **Espécies-Alvo**: Peixes migratórios rápidos e de alto valor
+    - **Melhor Para**: Progressão no meio do jogo e farm ativo
+  </Card>
+  <Card title="Lago Secreto">
+    - **Localização**: Bioma de floresta oculta
+    - **Espécies-Alvo**: Espécies Lendárias e Míticas
+    - **Melhor Para**: Coleção de fim de jogo e lucros massivos
+  </Card>
+</CardGrid>
+
+Entender as raridades dos peixes ajuda você a decidir quais capturas vender imediatamente e quais guardar para missões futuras ou trocas com NPCs. A tabela abaixo descreve a distribuição esperada e as estratégias para cada nível de raridade:
+
+| Nível de Raridade | Taxa de Captura Esperada | Tipo de Recompensa Principal | Melhor Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Comum** | Alta (60-70%) | Ouro Básico, Comida inicial | Venda rápida |
+| **Raro** | Média (20-30%) | Materiais de artesanato, Ouro de nível médio | Guardar para missões |
+| **Lendário** | Baixa (5-10%) | Ouro Alto, Comida de pet, Troféus | Usar Isca Premium |
+| **Mítico** | Extremamente Baixa (<1%) | Mutações de Arco-Íris, Decoração exclusiva | Maximizar bônus de sorte de pets |
+
+<Callout type="tip" title="Eficiência de Cultivo">
+Sempre verifique o quadro de missões diárias antes de iniciar sua rota. Os pedidos de NPCs frequentemente exigem peixes específicos, oferecendo até o dobro do valor de mercado padrão como recompensa de conclusão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo da Pesca no Dia 1">
+
+Quando Garden Quest for lançado em 27 de junho de 2026, os jogadores que otimizarem sua primeira hora ganharão uma enorme vantagem competitiva. Siga este passo a passo simplificado para desbloquear o sistema de pesca, garantir sua primeira vara e estabelecer um ciclo lucrativo no primeiro dia.
+
+<Steps>
+  <Step num="1" title="Complete as Missões Iniciais de Cultivo">
+    Antes de poder pescar, você deve concluir o tutorial de introdução. Plante suas primeiras sementes de nabo, colha-as e fale com o NPC principal da vila para desbloquear o acesso ao mapa mais amplo e à Loja de Equipamentos.
+  </Step>
+  <Step num="2" title="Adquira sua Vara Inicial">
+    Vá para a Loja de Equipamentos. Fale com o lojista para resgatar sua Vara Inicial gratuita. Se tiver ouro extra de suas colheitas iniciais de nabo, compre um pacote de iscas básicas para acelerar seus primeiros lançamentos.
+  </Step>
+  <Step num="3" title="Equipe seus Pets Companheiros">
+    Abra seu inventário e equipe até três pets companheiros. Pets do início do jogo, como o Robin ou o Cervo, oferecem utilidades menores. Se tiver a sorte de chocar um Unicórnio Mítico, equipe-o imediatamente para dobrar a chance de obter mutações de Arco-Íris.
+  </Step>
+  <Step num="4" title="Execute o Ciclo Ativo de Pesca">
+    Caminhe até o lago do jardim central. Lance sua linha e complete o minijogo de recolhimento. Continue pescando até que seu inventário esteja cheio, depois retorne à Loja de Equipamentos para vender suas capturas e financiar sua próxima rodada de melhorias de plantação.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mutações de Arco-Íris">
+Equipar o Unicórnio Mítico é altamente recomendado. Sua habilidade passiva dobra a chance de plantas e recursos colhidos sofrerem mutação para variantes valiosas de Arco-Íris, aumentando drasticamente sua renda no início do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Metas de Pré-Lançamento e Checklist">
+
+Com o lançamento oficial chegando, preparar seu plano de jogo é a melhor maneira de garantir um início tranquilo. Use este checklist de pré-lançamento para alinhar suas metas e se coordenar com a comunidade antes que os servidores fiquem ativos.
+
+<Checklist
+  id="pre-launch-goals"
+  title="Marcos do Dia de Lançamento:"
+  items={[
+    "Junte-se ao Grupo oficial do Garden Quest no Roblox (ID: 124192767) para garantir benefícios da comunidade.",
+    "Adicione aos favoritos o servidor oficial do Discord (discord.gg/gardenquest) para anúncios de lançamento em tempo real e distribuição de códigos.",
+    "Planeje sua alocação de ouro no primeiro dia: priorize a Scooter de Nabo e a primeira melhoria de Vara.",
+    "Coordene com amigos para compartilhar as tarefas de regar as plantações e dividir os locais de pesca ativa."
+  ]}
+/>
+
+<Callout type="info" title="Status dos Códigos Promocionais">
+Não há códigos promocionais confirmados disponíveis antes do lançamento em 27 de junho de 2026. Fique de olho no canal oficial do YouTube @GardenQuestStudio e no servidor do Discord para distribuições de códigos no primeiro dia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Revise estas perguntas frequentes para dominar as mecânicas e evitar erros comuns durante sua jornada.
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear o sistema de pesca em Garden Quest?",
+    answer: "Você pode desbloquear a pesca ao concluir as missões de tutorial iniciais na vila inicial. Uma vez concluídas, vá para a Loja de Equipamentos para resgatar sua Vara Inicial e começar a pescar em qualquer fonte de água próxima."
+  },
+  {
+    question: "Os pets afetam meu sucesso ou recompensas de pesca?",
+    answer: "Sim. Pets companheiros equipados fornecem bônus passivos de atributos. Por exemplo, pets de nível superior aumentam sua sorte, reduzem as taxas de fuga dos peixes ou concedem a chance de encontrar itens raros ao pescar."
+  },
+  {
+    question: "Qual é o melhor lugar para pescar capturas de alto valor?",
+    answer: "Os melhores locais de pesca são o Lago Secreto no bioma da floresta e o rio a leste. Essas áreas apresentam maiores taxas de aparecimento de peixes Lendários e Míticos, embora exijam varas melhoradas para serem pescados com sucesso."
+  },
+  {
+    question: "Posso usar este guia de pesca de garden quest para o jogo antigo GardenQuest.com?",
+    answer: "Não. Este guia foi projetado exclusivamente para a futura experiência do Roblox de 2026 'Garden Quest' desenvolvida pelo Garden Quest Studio. Ele não se aplica a nenhum jogo de navegador ou celular antigo e não relacionado."
+  }
+]} />
+
+<Callout type="tip" title="Suporte da Comunidade">
+Se você encontrar algum bug ou precisar de ajuda para encontrar locais específicos de peixes no dia do lançamento, junte-se ao grupo oficial do Roblox e converse com outros jogadores no Discord da comunidade.
+</Callout>
+
+</Section>

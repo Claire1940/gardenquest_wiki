@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Lokasi Memancing Garden Quest: Panduan Persiapan & Hadiah",
+  description: "Temukan semua lokasi memancing Garden Quest, metode pembukaan kunci, mekanik umpan, dan hadiah ikan dalam panduan peluncuran untuk petualangan Roblox mendatang ini.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/0284c7/fff?text=Garden+Quest+Fishing+Locations",
+  date: "2026-06-22",
+  author: "Tim Wiki Garden Quest"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Aktivitas Utama**: Memancing berfungsi sebagai putaran ekonomi aktif mandiri yang berjalan bersamaan dengan pertanian tanaman pasif Anda.
+- **Lokasi Utama**: Starter Pond dan Garden Stream adalah lokasi memancing utama Garden Quest yang diungkapkan untuk peluncuran.
+- **Peralatan Penting**: Beli joran starter dan umpan Anda dari Gear Shop sebelum mencoba melempar tali pancing Anda.
+- **Mutasi Pelangi**: Pasangkan umpan tingkat tinggi dengan hewan peliharaan pendamping Mythic Unicorn untuk memaksimalkan hasil mutasi Anda.
+</Callout>
+
+<Section icon={Map} title="Lokasi Memancing & Tata Letak Peta Garden Quest">
+
+Untuk memaksimalkan efisiensi progresi Anda di Garden Quest, mengidentifikasi lokasi memancing Garden Quest terbaik adalah langkah pertama Anda pada hari peluncuran. Game ini menampilkan zona perairan berbeda yang tersebar di peta taman interaktif, masing-masing menawarkan spesies ikan unik, tingkat drop, dan hadiah lingkungan. Menempatkan petak pertanian Anda di dekat pusat perairan ini memungkinkan Anda beralih dengan mulus antara menyiram tanaman dan melempar tali pancing.
+
+| Zona Memancing | Persyaratan Buka Kunci | Jenis Ikan Utama | Kesulitan Menangkap |
+| --- | --- | --- | --- |
+| Starter Pond | Tidak ada (Zona Default) | Minnow, Common Carp | Sangat Mudah |
+| Garden Stream | Pertanian Level 5 | River Trout, Catfish | Mudah |
+| Hidden Lake | Kunci Gear Shop | Rainbow Salmon, Golden Eel | Sulit |
+
+Dengan memahami tata letak zona-zona ini, pemain dapat merencanakan rute harian mereka untuk meminimalkan waktu perjalanan. Starter Pond terletak tepat di sebelah lahan petak awal, menjadikannya area yang paling mudah diakses untuk grinding awal game. Seiring Anda meningkatkan keterampilan bertani dan memperoleh peralatan yang lebih canggih, beralih ke Garden Stream dan Hidden Lake akan menghasilkan pengembalian finansial yang jauh lebih tinggi.
+
+<Callout type="info" title="Strategi Lokasi">
+Siapkan petak tanaman berfrekuensi tinggi Anda di dekat Starter Pond. Ini memungkinkan Anda memantau pengukur waktu pertumbuhan tanaman sambil aktif memancing, menggandakan perolehan sumber daya Anda per menit.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cara Membuka Kunci Memancing & Menggunakan Umpan">
+
+Sistem memancing adalah sistem mandiri yang dirancang untuk melengkapi progresi taman Anda secara keseluruhan. Berbeda dengan bertani tanaman, yang mengharuskan menunggu benih matang, memancing menawarkan alternatif gameplay aktif yang memberikan mata uang instan dan bahan peningkatan. Ikuti langkah-langkah ini untuk membuka kunci sistem dan mulai menangkap ikan pada hari peluncuran.
+
+<Steps>
+  <Step num="1" title="Kunjungi Gear Shop">
+    Temukan NPC Gear Shop di dekat plaza pusat untuk melihat-lihat alat utilitas dan joran starter yang tersedia.
+  </Step>
+  <Step num="2" title="Beli Basic Rod">
+    Habiskan koin tembaga awal Anda untuk membeli Basic Fishing Rod dan sejumlah kecil Earthworm.
+  </Step>
+  <Step num="3" title="Lengkapi Peralatan Anda">
+    Buka inventaris pemain Anda, pasang joran ke slot alat aktif Anda, dan pilih umpan yang Anda inginkan.
+  </Step>
+  <Step num="4" title="Lempar dan Gulung">
+    Dekati sumber air apa pun yang valid, klik untuk melempar, dan tunggu pelampung tenggelam sebelum menggulung senar.
+  </Step>
+</Steps>
+
+Menggunakan umpan yang tepat sangat penting untuk menargetkan spesies bernilai tinggi. Meskipun memancing tanpa umpan dimungkinkan, ini secara signifikan mengurangi tingkat gigitan Anda dan membatasi tangkapan Anda pada item tingkat umum. Rujuk ke tabel di bawah untuk merencanakan pembelian umpan Anda di Gear Shop.
+
+| Jenis Umpan | Biaya (Koin) | Bonus Penarikan | Tingkat Mutasi |
+| --- | --- | --- | --- |
+| Earthworm | 5 | +10% Tingkat Gigitan | 0% |
+| Glowing Grub | 15 | +25% Tingkat Gigitan | +5% Rainbow |
+| Golden Beetle | 50 | +50% Tingkat Gigitan | +15% Rainbow |
+
+<Callout type="tip" title="Konservasi Umpan">
+Jangan sia-siakan umpan tingkat tinggi seperti Golden Beetle di Starter Pond. Simpan untuk Hidden Lake tempat spesies bernilai tinggi berada untuk memaksimalkan laba atas investasi Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kelangkaan Spesies Ikan & Nilai Pasar">
+
+Tangkapan di Garden Quest dibagi menjadi beberapa tingkat kelangkaan yang berbeda. Ikan dengan kelangkaan lebih tinggi laku dengan harga mata uang yang jauh lebih banyak di Gear Shop, yang kemudian dapat diinvestasikan kembali ke benih premium seperti Turnip atau alat mobilitas seperti Turnip Scooter.
+
+<CardGrid cols={3}>
+  <Card title="Tingkat Common">
+    - **Spesies**: Minnow, Carp
+    - **Tingkat Gigitan**: Sangat Tinggi
+    - **Nilai**: 10-25 Koin
+    - **Tempat Terbaik**: Starter Pond
+  </Card>
+  <Card title="Tingkat Rare">
+    - **Spesies**: Trout, Catfish
+    - **Tingkat Gigitan**: Sedang
+    - **Nilai**: 50-120 Koin
+    - **Tempat Terbaik**: Garden Stream
+  </Card>
+  <Card title="Tingkat Mythic">
+    - **Spesies**: Rainbow Salmon
+    - **Tingkat Gigitan**: Sangat Rendah
+    - **Nilai**: 500+ Koin
+    - **Tempat Terbaik**: Hidden Lake
+  </Card>
+</CardGrid>
+
+Tabel berikut merinci nilai pasar dasar untuk setiap spesies ikan yang diketahui. Harap diingat bahwa harga sedikit berfluksuasi berdasarkan permintaan toko dan acara server yang aktif.
+
+| Spesies Ikan | Kelangkaan | Nilai Jual Dasar | Umpan Ideal |
+| --- | --- | --- | --- |
+| Minnow | Common | 10 Koin | Earthworm |
+| River Trout | Rare | 60 Koin | Glowing Grub |
+| Golden Eel | Epic | 200 Koin | Golden Beetle |
+| Rainbow Salmon | Mythic | 500 Koin | Golden Beetle |
+
+<Callout type="success" title="Mutasi Pelangi">
+Setiap ikan yang ditangkap memiliki peluang dasar untuk bermutasi menjadi varian Rainbow. Melengkapi hewan peliharaan pendamping Mythic Unicorn akan menggandakan peluang mutasi ini, mengubah tangkapan standar menjadi jackpot bernilai tinggi.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mengoptimalkan Ekonomi Memancing & Pertanian Anda">
+
+Untuk maju dengan cepat melalui tahap awal Garden Quest, Anda harus mengintegrasikan memancing ke dalam rutinitas pertanian harian Anda. Sambil menunggu tanaman berorientasi hasil tinggi matang, memancing mengisi waktu luang dan menyediakan modal cair yang dibutuhkan untuk pembelian benih dan peningkatan alat secara terus-menerus.
+
+<Checklist
+  id="fishing-goals"
+  title="Pencapaian Memancing Hari Peluncuran:"
+  items={[
+    "Buka kunci Basic Fishing Rod dari Gear Shop",
+    "Temukan dan catat ketiga tempat memancing utama",
+    "Tangkap setidaknya satu Rare River Trout untuk misi awal game",
+    "Tabung 500 koin untuk membeli Turnip Scooter agar perjalanan lebih cepat"
+  ]}
+/>
+
+Meningkatkan joran Anda sama pentingnya dengan meningkatkan penyiram tanaman Anda. Joran tingkat tinggi meningkatkan batas tegangan maksimum, membuatnya lebih mudah untuk menggulung ikan agresif seperti Golden Eel tanpa memutuskan tali pancing Anda.
+
+| Item Peningkatan | Harga | Manfaat Utilitas | Prioritas |
+| --- | --- | --- | --- |
+| Reinforced Rod | 300 Koin | Mengurangi kesulitan menggulung | Tinggi |
+| Turnip Scooter | 500 Koin | Meningkatkan kecepatan gerakan peta | Sedang |
+| Fiberglass Rod | 1.200 Koin | Membuka kunci lemparan air dalam | Rendah |
+
+<Callout type="warning" title="Manajemen Inventaris">
+Ikan tidak menumpuk (stack) di inventaris Anda. Pastikan Anda mengosongkan tas Anda di Gear Shop sebelum memulai perjalanan memancing yang panjang untuk menghindari tertinggalnya tangkapan berharga.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pertanyaan yang Sering Diajukan">
+
+Menavigasi perairan Garden Quest terkadang bisa rumit bagi pemula. Di bawah ini adalah pertanyaan paling umum mengenai mekanik, lokasi, dan optimalisasi hadiah.
+
+<Callout type="info" title="Dukungan Komunitas">
+Bergabunglah dengan saluran Discord resmi Garden Quest untuk bertukar tips memancing, mengoordinasikan acara komunitas, dan menerima pembaruan langsung dari pengembang.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Di mana lokasi memancing Garden Quest terbaik untuk pemula?",
+    answer: "Starter Pond yang terletak tepat di sebelah petak kebun default Anda adalah tempat terbaik untuk pemula. Ini tidak memerlukan pembukaan level dan memiliki tingkat gigitan tinggi untuk tangkapan yang mudah."
+  },
+  {
+    question: "Bagaimana cara meningkatkan peluang saya menangkap ikan Rainbow?",
+    answer: "Anda dapat meningkatkan tingkat mutasi Rainbow dengan menggunakan umpan Golden Beetle (peluang +15%) dan melengkapi hewan peliharaan pendamping Mythic Unicorn, yang menggandakan tingkat mutasi semua tanaman, buah, dan tangkapan."
+  },
+  {
+    question: "Apakah saya bisa memancing tanpa umpan di Garden Quest?",
+    answer: "Ya, Anda dapat melempar joran tanpa melengkapi umpan, tetapi tingkat gigitan Anda akan berkurang secara signifikan, dan Anda hanya akan menangkap ikan tingkat Common."
+  },
+  {
+    question: "Apakah cuaca atau waktu hari memengaruhi lokasi memancing?",
+    answer: "Spesies langka tertentu seperti Golden Eel memiliki tingkat spawn yang lebih tinggi selama jam-jam malam atau siklus cuaca hujan di lokasi Hidden Lake."
+  }
+]} />
+
+</Section>
