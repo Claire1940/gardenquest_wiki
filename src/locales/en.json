@@ -10,14 +10,7 @@
       "twitterDescription": "Garden Quest Wiki tracks Roblox release news, codes, crops, quests, pets, fishing, gear, and beginner tips for the Roblox farming adventure."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
