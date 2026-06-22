@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Garden Quest Wiki - Codes, Crops & Release Date",
+      "description": "Garden Quest Wiki tracks Roblox release news, codes, crops, quests, pets, fishing, gear, and beginner tips so players can prepare before launch.",
+      "keywords": "garden quest, roblox, codes, crops, quests, pets, fishing, gear, release date",
+      "ogTitle": "Garden Quest Wiki - Codes, Crops & Release Date",
+      "ogDescription": "Garden Quest Wiki tracks Roblox release news, codes, crops, quests, pets, fishing, gear, and beginner tips so players can prepare before launch.",
+      "twitterTitle": "Garden Quest Wiki - Codes, Crops & Release Date",
+      "twitterDescription": "Garden Quest Wiki tracks Roblox release news, codes, crops, quests, pets, fishing, gear, and beginner tips for the Roblox farming adventure."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Upcoming Roblox Farming Adventure",
+    "title": "Garden Quest Wiki",
+    "description": "Garden Quest is an upcoming Roblox farming adventure where players prepare for seeds, quests, pets, fishing, gear, and garden progression. This wiki tracks official links, launch news, codes, and beginner routes as details are confirmed.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Join Roblox Group",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "June 27",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Roblox",
+        "label": "Platform"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "2.05K",
+        "label": "YouTube Subscribers"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2",
+        "label": "Official Videos"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Start Your Garden Quest?",
+    "description": "Join the Garden Quest community on Discord and Roblox for codes, farming guides, and launch updates!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Join Roblox Group"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Garden Quest Wiki",
+    "description": "Your complete resource hub for Garden Quest codes, crops, quests, pets, fishing, gear, and beginner guides for the upcoming Roblox farming adventure.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube",
+    "reddit": "Reddit",
+    "robloxGroup": "Roblox Group",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Garden Quest Wiki. Not affiliated with the developers of Garden Quest.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
