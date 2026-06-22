@@ -38,6 +38,28 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Garden Quest 主题图标
+  Calendar: LucideIcons.Calendar,
+  Gift: LucideIcons.Gift,
+  Sprout: LucideIcons.Sprout,
+  Leaf: LucideIcons.Leaf,
+  Flower2: LucideIcons.Flower2,
+  Wheat: LucideIcons.Wheat,
+  Carrot: LucideIcons.Carrot,
+  Sun: LucideIcons.Sun,
+  Droplet: LucideIcons.Droplet,
+  Tag: LucideIcons.Tag,
+  Ticket: LucideIcons.Ticket,
+  Rocket: LucideIcons.Rocket,
+  ScrollText: LucideIcons.ScrollText,
+  Video: LucideIcons.Video,
+  Film: LucideIcons.Film,
+  Play: LucideIcons.Play,
+  Award: LucideIcons.Award,
+  Egg: LucideIcons.Egg,
+  Fish: LucideIcons.Fish,
+  PawPrint: LucideIcons.PawPrint,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
