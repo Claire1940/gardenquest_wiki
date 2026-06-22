@@ -1,11 +1,668 @@
 {
+  "seo": {
+    "home": {
+      "title": "Garden Quest Wiki - Kode, Tanaman & Tanggal Rilis",
+      "description": "Garden Quest Wiki melacak berita rilis Roblox, kode, tanaman, misi, hewan peliharaan, memancing, perlengkapan, dan tips pemula agar pemain dapat bersiap sebelum peluncuran.",
+      "keywords": "garden quest, roblox, kode, tanaman, misi, hewan peliharaan, memancing, perlengkapan, tanggal rilis",
+      "ogTitle": "Garden Quest Wiki - Kode, Tanaman & Tanggal Rilis",
+      "ogDescription": "Garden Quest Wiki melacak berita rilis Roblox, kode, tanaman, misi, hewan peliharaan, memancing, perlengkapan, dan tips pemula agar pemain dapat bersiap sebelum peluncuran.",
+      "twitterTitle": "Garden Quest Wiki - Kode, Tanaman & Tanggal Rilis",
+      "twitterDescription": "Garden Quest Wiki melacak berita rilis Roblox, kode, tanaman, misi, hewan peliharaan, memancing, perlengkapan, dan tips pemula untuk petualangan bertani Roblox."
+    }
+  },
   "nav": {
     "guide": "Panduan",
     "release": "Rilis",
     "codes": "Kode",
     "quests": "Misi",
-    "pets": "Peliharaan",
+    "pets": "Hewan Peliharaan",
     "fishing": "Memancing",
     "items": "Item"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Petualangan Bertani Roblox Mendatang",
+    "title": "Garden Quest Wiki",
+    "description": "Garden Quest adalah petualangan bertani Roblox mendatang di mana pemain bersiap untuk benih, misi, hewan peliharaan, memancing, perlengkapan, dan perkembangan kebun. Wiki ini melacak tautan resmi, berita peluncuran, kode, dan rute pemula saat detailnya dikonfirmasi.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Bergabung dengan Grup Roblox",
+    "stats": {
+      "stat1": {
+        "value": "27 Juni",
+        "label": "Tanggal Rilis"
+      },
+      "stat2": {
+        "value": "Roblox",
+        "label": "Platform"
+      },
+      "stat3": {
+        "value": "2,05K",
+        "label": "Subscriber YouTube"
+      },
+      "stat4": {
+        "value": "2",
+        "label": "Video Resmi"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Garden Quest",
+    "description": "Garden Quest adalah petualangan bertani Roblox mendatang yang dibuat seputar menanam benih, menumbuhkan tanaman, memelihara hewan peliharaan, memancing, mengunjungi toko perlengkapan, dan menghias petak kebun Anda."
+  },
+  "tools": {
+    "title": "Garden Quest",
+    "titleHighlight": "Sumber Daya",
+    "subtitle": "Semua yang Anda butuhkan untuk melacak tautan rilis, kode, langkah pemula, dan benih Garden Quest sebelum peluncuran.",
+    "cards": [
+      {
+        "icon": "Rocket",
+        "title": "Tautan Rilis Garden Quest",
+        "description": "Komunitas resmi Roblox, Discord, YouTube, dan tanggal rilis 27 Juni."
+      },
+      {
+        "icon": "Gift",
+        "title": "Kode Garden Quest",
+        "description": "Kode aktif, kode kedaluwarsa, dan sumber resmi pembagian kode saat peluncuran."
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Panduan Pemula Garden Quest",
+        "description": "Langkah-langkah sesi pertama dari komunitas resmi Roblox hingga benih pertama Anda."
+      },
+      {
+        "icon": "Sprout",
+        "title": "Benih & Tanaman Garden Quest",
+        "description": "Daftar tingkatan benih dan tanaman yang dibuat berdasarkan waktu tumbuh dan nilai jual."
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Hewan Peliharaan Garden Quest",
+        "description": "Rusa, Robin, Unicorn, dan sistem loadout hewan peliharaan yang ditampilkan dalam pratinjau Garden Quest."
+      },
+      {
+        "icon": "Fish",
+        "title": "Memancing Garden Quest",
+        "description": "Cara kerja alur memancing di tepi kolam Garden Quest, lengkap dengan akses, tangkapan, dan hadiah."
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Toko Perlengkapan Garden Quest",
+        "description": "Alat, perlengkapan, dan menu Toko Perlengkapan yang membentuk progres awal Garden Quest."
+      },
+      {
+        "icon": "Home",
+        "title": "Perumahan Garden Quest",
+        "description": "Rumah, lampu, perabot, air mancur, dan ide dekorasi untuk petak Garden Quest Anda."
+      }
+    ]
+  },
+  "modules": {
+    "gardenQuestReleaseAndPlayLink": {
+      "title": "Tanggal Rilis dan Tautan Bermain Resmi Garden Quest",
+      "intro": "Garden Quest adalah game bertani Roblox dari Garden Quest Studio. Mulailah dari komunitas resmi Roblox, lalu ikuti YouTube dan Discord studio tersebut untuk pembaruan peluncuran, trailer, kode, dan tautan permainan.",
+      "items": [
+        {
+          "icon": "Calendar",
+          "label": "Tanggal Rilis",
+          "value": "27 Juni 2026",
+          "description": "Trailer resmi Garden Quest mencantumkan waktu rilis pada 27 Juni di Roblox."
+        },
+        {
+          "icon": "Users",
+          "label": "Komunitas Resmi Roblox",
+          "value": "Komunitas Roblox Garden Quest",
+          "description": "Gunakan ID komunitas 124192767 sebagai titik awal resmi Roblox untuk Garden Quest.",
+          "href": "https://www.roblox.com/share/g/124192767"
+        },
+        {
+          "icon": "Video",
+          "label": "Saluran YouTube Resmi",
+          "value": "@GardenQuestStudio",
+          "description": "Saluran Garden Quest Studio mengunggah trailer, shorts, dan pratinjau gameplay.",
+          "href": "https://www.youtube.com/@GardenQuestStudio"
+        },
+        {
+          "icon": "MessageCircle",
+          "label": "Discord Resmi",
+          "value": "discord.gg/gardenquest",
+          "description": "Discord Garden Quest adalah pusat utama untuk pengumuman, pembagian kode, dan pemberitahuan peluncuran.",
+          "href": "https://discord.gg/gardenquest"
+        },
+        {
+          "icon": "Film",
+          "label": "Trailer Resmi",
+          "value": "Trailer Gameplay dan Tanggal Rilis",
+          "description": "Trailer ini menyajikan gameplay Garden Quest dan informasi tanggal rilis dalam satu sumber.",
+          "href": "https://www.youtube.com/watch?v=GMZc0ad8TKE"
+        }
+      ]
+    },
+    "gardenQuestCodes": {
+      "title": "Kode Garden Quest",
+      "intro": "Pelacakan kode Garden Quest dimulai dari Discord resmi, saluran YouTube Garden Quest Studio, trailer resmi, dan komunitas Roblox. Kode disalin persis seperti yang dibagikan oleh sumber resmi.",
+      "sections": [
+        {
+          "heading": "Kode Aktif",
+          "status": "launch-ready",
+          "emptyText": "Belum ada kode Garden Quest aktif yang terdaftar sebelum peluncuran. Silakan periksa kembali pada hari rilis."
+        },
+        {
+          "heading": "Kode Kedaluwarsa",
+          "status": "kosong",
+          "emptyText": "Belum ada kode Garden Quest kedaluwarsa yang terdaftar."
+        },
+        {
+          "heading": "Sumber Kode Resmi",
+          "status": "watch-list",
+          "sources": [
+            {
+              "icon": "MessageCircle",
+              "name": "Discord Garden Quest",
+              "description": "Tempat utama untuk memantau pengumuman peluncuran, pembagian kode, dan pemberitahuan hadiah.",
+              "href": "https://discord.gg/gardenquest"
+            },
+            {
+              "icon": "Video",
+              "name": "YouTube Garden Quest Studio",
+              "description": "Saluran resmi untuk video, shorts, trailer, dan pratinjau pembaruan Garden Quest.",
+              "href": "https://www.youtube.com/@GardenQuestStudio"
+            },
+            {
+              "icon": "Film",
+              "name": "Trailer Resmi",
+              "description": "Sumber trailer tanggal rilis dan gameplay untuk informasi seputar periode peluncuran.",
+              "href": "https://www.youtube.com/watch?v=GMZc0ad8TKE"
+            },
+            {
+              "icon": "Users",
+              "name": "Komunitas Roblox",
+              "description": "Jalur resmi komunitas Roblox untuk peluncuran Garden Quest dan tautan komunitas.",
+              "href": "---"
+            }
+          ]
+        },
+        {
+          "heading": "https://www.roblox.com/share/g/124192767",
+          "status": "Aturan Penggunaan Kode",
+          "tips": [
+            "tips-pemain",
+            "Salin kode Garden Quest persis seperti yang dibagikan oleh sumber resmi.",
+            "Periksa spasi, huruf kapital, dan tanda baca sebelum menukarkan."
+          ]
+        }
+      ]
+    },
+    "gardenQuestBeginnerGuide": {
+      "title": "Gunakan komunitas resmi Roblox dan Discord sebelum mempercayai daftar kode yang dibagikan ulang.",
+      "intro": "Panduan Pemula Garden Quest",
+      "steps": [
+        {
+          "title": "Garden Quest dirancang dengan siklus memulai kebun: masuk melalui jalur resmi Roblox, ikuti pengumuman peluncuran, tanam benih, tumbuhkan tanaman, dan pelajari sistem pertama yang ditampilkan dalam pratinjau resmi.",
+          "description": "Mulai Dari Komunitas Resmi Roblox",
+          "href": "Buka komunitas Roblox Garden Quest terlebih dahulu dan gunakan jalur komunitas resmi untuk akses peluncuran."
+        },
+        {
+          "title": "https://www.roblox.com/share/g/124192767",
+          "description": "Gabung ke Discord Garden Quest",
+          "href": "Gunakan undangan Discord untuk mengikuti pengumuman peluncuran, pembagian kode, dan pengumuman komunitas sebelum masuk ke dalam game."
+        },
+        {
+          "title": "https://discord.gg/gardenquest",
+          "description": "Tonton Trailer Resmi",
+          "href": "Trailer ini menampilkan gameplay Garden Quest dan waktu rilis, menjadikannya pratinjau pertama terbaik sebelum peluncuran."
+        },
+        {
+          "title": "https://www.youtube.com/watch?v=GMZc0ad8TKE",
+          "description": "Ikuti Shorts Studio Garden Quest",
+          "href": "Video shorts resmi menampilkan pratinjau awal gameplay, termasuk klip penanaman benih Garden Quest."
+        },
+        {
+          "title": "https://www.youtube.com/shorts/7cCcc6p5iW0",
+          "description": "Tanam Benih Pertamamu",
+          "href": "Penanaman benih muncul dalam pratinjau Garden Quest, termasuk klip penanaman benih lobak yang menampilkan siklus bertani."
+        },
+        {
+          "title": "https://www.youtube.com/shorts/SeF_DzvoVA4",
+          "description": "Fokus pada Siklus Kebun"
+        }
+      ],
+      "quickTips": [
+        "Fokuskan sesi pertama untuk menanam, menumbuhkan, memeriksa perkembangan tanaman, dan mempelajari letak alat berkebun utama serta menu di Garden Quest.",
+        "Masuk ke Garden Quest melalui komunitas resmi Roblox, bukan tautan game sembarangan.",
+        "Ikuti Discord dan YouTube resmi agar kode peluncuran dan pembaruan sampai ke kamu terlebih dahulu.",
+        "Mulailah dengan tanaman yang ditampilkan di pratinjau resmi, seperti lobak, sebelum bereksperimen."
+      ]
+    },
+    "gardenQuestSeedsAndCrops": {
+      "title": "Jaga agar sesi pertamamu tetap sederhana: tanam, siram, panen, dan pelajari menunya.",
+      "intro": "Tier List Benih dan Tanaman Garden Quest",
+      "tiers": [
+        {
+          "tier": "Pelacakan benih Garden Quest dimulai dengan tanaman pratinjau dan bertambah seiring pemain mengumpulkan statistik tanaman secara langsung.",
+          "label": "Lobak adalah tanaman pertama yang disorot karena muncul dalam pratinjau penanaman Garden Quest.",
+          "description": "Tanaman Pratinjau",
+          "crops": [
+            {
+              "name": "Ditampilkan dalam Rekaman Garden Quest",
+              "type": "Tanaman di tier ini muncul dalam konten pratinjau Garden Quest dan harus dilacak terlebih dahulu saat peluncuran.",
+              "preview": "Lobak",
+              "use": "Benih / Tanaman",
+              "stats": [
+                "Penanaman",
+                "Pelacakan awal tanaman dan pengaturan awal kebun",
+                "Ketersediaan benih",
+                "Nilai upgrade"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "Pelacakan Peluncuran",
+          "label": "Kriteria Tier List",
+          "description": "Tanaman Garden Quest harus diperingkat berdasarkan nilai praktis, bukan tebakan.",
+          "crops": [
+            {
+              "name": "Tanaman Tumbuh Cepat",
+              "type": "Aturan Peringkat",
+              "preview": "Bandingkan waktu tumbuh setelah peluncuran",
+              "use": "Terbaik untuk perputaran uang awal dan ekspansi kebun yang cepat",
+              "stats": [
+                "Waktu tumbuh",
+                "Frekuensi panen",
+                "Harga benih",
+                "Nilai jual"
+              ]
+            },
+            {
+              "name": "Tanaman Nilai Tinggi",
+              "type": "Aturan Peringkat",
+              "preview": "Bandingkan nilai jual setelah peluncuran",
+              "use": "Terbaik untuk keuntungan jangka panjang dan upgrade",
+              "stats": [
+                "Nilai jual",
+                "Ketersediaan",
+                "Nilai upgrade",
+                "Nilai penanaman ulang"
+              ]
+            },
+            {
+              "name": "Tanaman Langka atau Terbatas",
+              "type": "Aturan Peringkat",
+              "preview": "Lacak drop pembaruan resmi dan event",
+              "use": "Terbaik untuk nilai koleksi dan progres event",
+              "stats": [
+                "Sumber drop",
+                "Ketersediaan terbatas",
+                "Kegunaan event",
+                "Nilai perdagangan atau koleksi"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "gardenQuestPetsGuide": {
+      "title": "Panduan Pet Garden Quest",
+      "intro": "Pet adalah pendamping kebun yang dapat dipasang yang mendukung siklus bertani Garden Quest dan juga berfungsi sebagai target koleksi. Unicorn adalah pet terkonfirmasi yang paling jelas sejauh ini: pet Mythic dengan teks info yang menunjukkan ia berlari kecil di sekitar kebun dan menggandakan peluang tanaman dan buah berubah menjadi Rainbow.",
+      "items": [
+        {
+          "icon": "Footprints",
+          "name": "Deer",
+          "category": "Pet",
+          "role": "Pendamping kebun",
+          "detail": "Ditampilkan dalam daftar pet Garden Quest yang aktif di samping Robin dan Unicorn.",
+          "player_use": "Lacak sebagai slot pet yang dapat dipasang untuk dukungan kebun dan progres koleksi."
+        },
+        {
+          "icon": "Bird",
+          "name": "Robin",
+          "category": "Pet",
+          "role": "Pendamping kebun",
+          "detail": "Ditampilkan dalam barisan peliharaan Garden Quest yang aktif di samping Deer dan Unicorn.",
+          "player_use": "Lacak sebagai pendamping menu peliharaan untuk perbandingan koleksi dan bantuan pertanian."
+        },
+        {
+          "icon": "Star",
+          "name": "Unicorn",
+          "category": "Peliharaan Mitos",
+          "role": "Dukungan peluang Rainbow",
+          "detail": "Info peliharaan Garden Quest menunjukkan Unicorn berjalan-jalan di kebun dan menggandakan peluang tanaman dan buah berubah menjadi Rainbow.",
+          "player_use": "Gunakan sebagai kartu peliharaan nilai mutasi utama saat membandingkan peliharaan yang meningkatkan hasil panen."
+        },
+        {
+          "icon": "Layers",
+          "name": "3/3 Peliharaan Dilengkapi",
+          "category": "Loadout Peliharaan",
+          "role": "Slot peliharaan aktif",
+          "detail": "Rekaman pratinjau Garden Quest menunjukkan status lengkap 3/3 peliharaan yang dilengkapi dengan Deer, Robin, dan Unicorn.",
+          "player_use": "Bandingkan slot peliharaan aktif berdasarkan peran agar dukungan pertanian, koleksi, dan mutasi tetap mudah dibaca."
+        }
+      ]
+    },
+    "gardenQuestFishingGuide": {
+      "title": "Panduan Memancing Garden Quest",
+      "intro": "Memancing adalah sistem Garden Quest mandiri yang ditunjukkan dalam pratinjau resmi bersama peliharaan. Panduan ini memisahkan memancing dari bertani tanaman, peliharaan, perlengkapan, dan perumahan sehingga pemain dapat menemukan alur aktivitas di tepi kolam dengan cepat. Panduan ini terstruktur berdasarkan akses, hasil tangkapan, hadiah, dan catatan rute.",
+      "items": [
+        {
+          "icon": "Fish",
+          "question": "Apa itu sistem memancing Garden Quest?",
+          "answer": "Memancing adalah aktivitas sampingan mandiri yang ditunjukkan dalam konten pratinjau Garden Quest, terpisah dari menanam tanaman dan melengkapi peliharaan. Gunakan bagian ini saat Anda menginginkan alur memancing Garden Quest tanpa harus mencari-cari di bagian peliharaan, perlengkapan, atau perumahan."
+        },
+        {
+          "icon": "Link",
+          "question": "Bagaimana hubungan memancing dengan peliharaan di Garden Quest?",
+          "answer": "Memancing dan peliharaan dipratinjau bersama dalam perilisan konten Garden Quest yang sama. Peliharaan memberikan bantuan kebun pasif, sementara memancing memberikan aktivitas koleksi dan hadiah lainnya bagi pemain selain bertani tanaman."
+        },
+        {
+          "icon": "ListChecks",
+          "question": "Apa yang harus diperiksa pertama kali oleh pemain Garden Quest tentang memancing?",
+          "answer": "Periksa akses memancing, nama tangkapan, jenis hadiah, dan waktu rute Garden Quest terlebih dahulu. Ini adalah detail yang paling penting saat memutuskan apakah akan memancing, bertani, menjual, atau berbelanja selanjutnya."
+        },
+        {
+          "icon": "Trophy",
+          "question": "Bagaimana hadiah memancing Garden Quest diatur?",
+          "answer": "Hadiah memancing Garden Quest paling baik diatur berdasarkan nama ikan, lokasi, jenis hadiah, kelangkaan, dan rute terbaik. Ini menjaga panduan tetap berguna baik untuk pemain koleksi maupun pemain yang berfokus pada pertanian yang efisien."
+        }
+      ]
+    },
+    "gardenQuestGearShopAndTools": {
+      "title": "Panduan Toko Perlengkapan dan Alat Garden Quest",
+      "intro": "Toko Perlengkapan adalah sistem utilitas inti di Garden Quest, memberikan tempat khusus bagi pemain untuk membeli alat dan perlengkapan habis pakai. Panduan ini membahas fungsi setiap barang, bagaimana barang tersebut mendukung pertanian atau pergerakan, dan mengapa hal itu penting untuk perkembangan awal.",
+      "items": [
+        {
+          "icon": "ShoppingCart",
+          "name": "Toko Perlengkapan",
+          "category": "Toko",
+          "detail": "Toko Perlengkapan khusus ditampilkan dalam konten pratinjau Garden Quest.",
+          "player_use": "Gunakan sebagai hub utama untuk membandingkan alat, perlengkapan, harga, stok, dan prioritas pembelian Garden Quest."
+        },
+        {
+          "icon": "LayoutGrid",
+          "name": "Menu Toko Perlengkapan",
+          "category": "Antarmuka",
+          "detail": "Konten pratinjau Garden Quest menyajikan Toko Perlengkapan sebagai sistem berbasis toko untuk barang-barang perlengkapan.",
+          "player_use": "Periksa nama barang, kategori, efek, dan harga sebelum membeli."
+        },
+        {
+          "icon": "Hammer",
+          "name": "Alat",
+          "category": "Perlengkapan Utilitas",
+          "detail": "Materi pratinjau Garden Quest membingkai alat sebagai bagian dari siklus perlengkapan dan peningkatan.",
+          "player_use": "Pisahkan alat pendukung pertanian dari dekorasi kosmetik agar pemain tahu apa yang membantu progres terlebih dahulu."
+        },
+        {
+          "icon": "Bike",
+          "name": "Skuter Lobak",
+          "category": "Perlengkapan Mobilitas",
+          "detail": "Sebuah Skuter Lobak muncul dalam konten pratinjau Garden Quest.",
+          "player_use": "Lacak sebagai perlengkapan pergerakan untuk melintasi peta kebun dan mengurangi waktu perjalanan antar sistem Garden Quest."
+        }
+      ]
+    },
+    "gardenQuestHousesAndDecorations": {
+      "title": "Panduan Rumah dan Dekorasi Garden Quest",
+      "intro": "Rumah dan dekorasi rumah adalah bagian nyata dari Garden Quest, memberikan pemain lapisan kosmetik selain bertani, hewan peliharaan, memancing, dan perlengkapan. Dekorasi mencakup lampu, kursi, bangku, lukisan, patung, air mancur, dan barang makanan, sehingga pemain dapat merencanakan gaya rumah dan kebun berdasarkan kategori yang dikonfirmasi.",
+      "items": [
+        {
+          "icon": "Home",
+          "name": "Rumah",
+          "category": "Sistem Rumah",
+          "visual_focus": "Ruang rumah pemain",
+          "placement_idea": "Gunakan sebagai titik jangkar untuk tata letak dekoratif dan identitas kebun Garden Quest."
+        },
+        {
+          "icon": "Sparkles",
+          "name": "Gameplay Rumah dan Dekorasi",
+          "category": "Sistem Dekorasi",
+          "visual_focus": "Penempatan kosmetik interior dan eksterior",
+          "placement_idea": "Kelompokkan dekorasi berdasarkan fungsi agar perumahan, jalan setapak kebun, dan area tampilan tetap mudah dilihat."
+        },
+        {
+          "icon": "Lightbulb",
+          "name": "Lampu",
+          "category": "Dekorasi",
+          "visual_focus": "Pencahayaan dan suasana",
+          "placement_idea": "Tempatkan di sekitar jalan setapak, pintu masuk rumah, dan sudut tampilan agar tata letak lebih mudah dilihat."
+        },
+        {
+          "icon": "Sofa",
+          "name": "Kursi dan Bangku",
+          "category": "Dekorasi",
+          "visual_focus": "Objek tempat duduk",
+          "placement_idea": "Gunakan di dekat rumah, tepi kebun, dan area sosial untuk membuat lahan Garden Quest terasa lebih hidup."
+        },
+        {
+          "icon": "Frame",
+          "name": "Lukisan dan Patung",
+          "category": "Dekorasi",
+          "visual_focus": "Objek tampilan",
+          "placement_idea": "Gunakan sebagai dekorasi titik fokus untuk interior rumah, dinding eksterior, dan zona pameran."
+        },
+        {
+          "icon": "Droplet",
+          "name": "Air Mancur",
+          "category": "Dekorasi",
+          "visual_focus": "Fitur air",
+          "placement_idea": "Gunakan sebagai bagian tengah taman atau sebagai pembatas dekoratif antara area pertanian dan rumah."
+        },
+        {
+          "icon": "Utensils",
+          "name": "Item Makanan",
+          "category": "Dekorasi dan Interaksi",
+          "visual_focus": "Makanan untuk dimakan",
+          "placement_idea": "Gunakan di dekat tata letak rumah atau area sosial saat membangun pemandangan dekoratif yang nyaman."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Sering Diajukan",
+    "titleHighlight": "Pertanyaan",
+    "subtitle": "Semua yang perlu kamu ketahui tentang Garden Quest sebelum peluncuran.",
+    "questions": [
+      {
+        "question": "Kapan Garden Quest rilis di Roblox?",
+        "answer": "Garden Quest dijadwalkan rilis di Roblox pada 27 Juni 2026, menurut trailer resmi Garden Quest."
+      },
+      {
+        "question": "Di mana saya bisa bermain Garden Quest?",
+        "answer": "Garden Quest adalah game Roblox. Gunakan komunitas Roblox resmi Garden Quest (ID 124192767) sebagai titik awal yang aman alih-alih tautan game acak."
+      },
+      {
+        "question": "Di mana saya bisa menemukan kode Garden Quest?",
+        "answer": "Kode Garden Quest diumumkan di Discord resmi Garden Quest, saluran YouTube Garden Quest Studio, dan trailer resmi. Selalu salin kode persis seperti yang dipublikasikan."
+      },
+      {
+        "question": "Apa yang bisa saya lakukan di Garden Quest saat peluncuran?",
+        "answer": "Garden Quest adalah petualangan pertanian yang dibangun seputar menanam benih, menanam tanaman, memelihara hewan peliharaan, memancing, berbelanja peralatan, dan mendekorasi petak tamanmu."
+      },
+      {
+        "question": "Apakah Garden Quest gratis untuk dimainkan?",
+        "answer": "Garden Quest adalah pengalaman Roblox, jadi game ini mengikuti model akses standar Roblox. Bergabunglah melalui komunitas Roblox resmi Garden Quest untuk bermain."
+      },
+      {
+        "question": "Bagaimana cara agar tetap mendapatkan pembaruan tentang Garden Quest?",
+        "answer": "Ikuti Discord resmi Garden Quest, saluran YouTube Garden Quest Studio, dan komunitas Roblox untuk berita peluncuran, kode, dan pembaruan."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Memulai Garden Quest?",
+    "description": "Bergabunglah dengan komunitas Garden Quest di Discord dan Roblox untuk mendapatkan kode, panduan bertani, dan pembaruan peluncuran!",
+    "joinCommunity": "Gabung Discord",
+    "joinGame": "Gabung Grup Roblox"
+  },
+  "footer": {
+    "title": "Wiki Garden Quest",
+    "description": "Pusat sumber daya lengkapmu untuk kode Garden Quest, tanaman, misi, hewan peliharaan, memancing, peralatan, dan panduan pemula untuk petualangan pertanian Roblox mendatang.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "discord": "Discord",
+    "youtube": "YouTube",
+    "reddit": "Reddit",
+    "robloxGroup": "Grup Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Garden Quest Wiki. Tidak berafiliasi dengan pengembang Garden Quest.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
+  },
+  "pages": {
+    "guide": {
+      "title": "Panduan Garden Quest",
+      "description": "Panduan lengkap Garden Quest yang mencakup persiapan pemula, gameplay, progresi, dan walkthrough untuk petualangan bertani Roblox ini.",
+      "metaTitle": "Panduan Garden Quest - Persiapan Pemula, Gameplay & Walkthrough",
+      "metaDescription": "Kuasai Garden Quest dengan panduan lengkap: persiapan pemula, tips gameplay, progresi, walkthrough, dan cara bermain petualangan bertani Roblox ini.",
+      "categoryLabel": "PANDUAN",
+      "whatIs": "Apa itu Panduan Garden Quest?",
+      "whatIsDescription": "Panduan komprehensif Garden Quest yang mencakup mekanik gameplay, persiapan pemula, jalur progresi, dan walkthrough. Pelajari segalanya mulai dari benih pertama Anda hingga strategi bertani tingkat lanjut, hewan peliharaan, dan memancing.",
+      "why": "Mengapa membaca panduan Garden Quest?",
+      "whySteps": {
+        "step1Title": "Pelajari Mekanik Inti",
+        "step1Description": "Pahami sistem bertani, hewan peliharaan, memancing, dan progresi Garden Quest serta hindari kesalahan umum pemula",
+        "step2Title": "Progresi Cepat",
+        "step2Description": "Ikuti jalur yang terbukti untuk mengembangkan kebun Anda, mendapatkan mata uang, dan membuka perlengkapan dengan cepat",
+        "step3Title": "Kuasai Strategi",
+        "step3Description": "Kembangkan taktik tingkat lanjut untuk tanaman, quest, hewan peliharaan, dan tujuan koleksi"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "release": {
+      "title": "Rilis Garden Quest",
+      "description": "Tanggal rilis Garden Quest, trailer resmi, komunitas Roblox, Discord, dan berita peluncuran untuk petualangan bertani mendatang.",
+      "metaTitle": "Tanggal Rilis, Trailer & Tautan Resmi Garden Quest",
+      "metaDescription": "Pantau tanggal rilis Garden Quest, trailer resmi, komunitas Roblox, Discord, dan berita peluncuran untuk petualangan bertani Roblox mendatang.",
+      "categoryLabel": "RILIS",
+      "whatIs": "Apa itu Rilis Garden Quest?",
+      "whatIsDescription": "Liputan rilis Garden Quest memantau tanggal peluncuran resmi, trailer, komunitas Roblox, Discord, dan berita platform agar para pemain siap menyambut debut petualangan bertani ini.",
+      "why": "Mengapa memantau rilis Garden Quest?",
+      "whySteps": {
+        "step1Title": "Ketahui Tanggal Peluncuran",
+        "step1Description": "Ikuti tanggal rilis resmi dan trailer Garden Quest untuk bermain di hari pertama",
+        "step2Title": "Gunakan Tautan Resmi",
+        "step2Description": "Bergabunglah dengan komunitas resmi Roblox dan Discord untuk akses peluncuran dan pembaruan yang aman",
+        "step3Title": "Tetap Terdepan",
+        "step3Description": "Dapatkan berita peluncuran, pembagian kode, dan konten awal segera setelah dikonfirmasi"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Rilis"
+    },
+    "codes": {
+      "title": "Kode Garden Quest",
+      "description": "Kode Garden Quest aktif terbaru untuk hadiah gratis, ditambah sumber kode resmi, aktif, dan kedaluwarsa saat peluncuran.",
+      "metaTitle": "Kode Garden Quest - Kode Aktif & Hadiah",
+      "metaDescription": "Dapatkan hadiah gratis dengan kode aktif Garden Quest. Pantau kode aktif, kode kedaluwarsa, dan sumber pembagian kode resmi untuk petualangan bertani Roblox ini.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu Kode Garden Quest?",
+      "whatIsDescription": "Kode Garden Quest adalah rangkaian teks yang dapat ditukarkan yang dibagikan oleh pengembang untuk memberikan hadiah gratis saat peluncuran. Hub ini melacak kode aktif, kode kedaluwarsa, dan sumber resmi tempat kode dibagikan.",
+      "why": "Mengapa menggunakan kode Garden Quest?",
+      "whySteps": {
+        "step1Title": "Klaim Hadiah Gratis",
+        "step1Description": "Tukarkan kode Garden Quest yang aktif untuk mendapatkan bonus peluncuran dan mata uang gratis",
+        "step2Title": "Hindari Kode Kedaluwarsa",
+        "step2Description": "Lewati kode yang tidak lagi berfungsi dan fokus pada kode yang aktif",
+        "step3Title": "Gunakan Sumber Resmi",
+        "step3Description": "Ikuti Discord, YouTube, dan trailer untuk pembagian kode yang terverifikasi"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "quests": {
+      "title": "Misi Garden Quest",
+      "description": "Panduan misi Garden Quest: daftar misi, misi harian dan mingguan, hadiah, serta rute langkah demi langkah untuk setiap rangkaian misi.",
+      "metaTitle": "Misi Garden Quest - Daftar Misi, Misi Harian & Mingguan",
+      "metaDescription": "Panduan lengkap misi Garden Quest: daftar lengkap misi, misi harian, misi mingguan, hadiah, serta rute langkah demi langkah untuk setiap rangkaian misi dalam petualangan bertani Roblox ini.",
+      "categoryLabel": "MISI",
+      "whatIs": "Apa itu Misi Garden Quest?",
+      "whatIsDescription": "Misi Garden Quest adalah rangkaian objektif yang memandu pemain melalui progres bertani, tugas NPC, dan misi khusus. Hub ini mencakup daftar misi, misi harian, misi mingguan, dan hadiah misi.",
+      "why": "Mengapa mengikuti misi Garden Quest?",
+      "whySteps": {
+        "step1Title": "Dapatkan Hadiah Konsisten",
+        "step1Description": "Selesaikan misi harian dan mingguan untuk mendapatkan mata uang dan bonus progres yang andal",
+        "step2Title": "Selesaikan Rangkaian Misi",
+        "step2Description": "Ikuti rute misi langkah demi langkah untuk membuka tanaman, pet, dan area baru",
+        "step3Title": "Hindari Terjebak",
+        "step3Description": "Gunakan panduan misi untuk menyelesaikan objektif seperti memanen pohon ek dan membangun air mancur"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Misi"
+    },
+    "pets": {
+      "title": "Pet Garden Quest",
+      "description": "Panduan pet Garden Quest: daftar lengkap pet, kelangkaan, kemampuan, dan cara mendapatkan pet terbaik untuk perlengkapan bertani Anda.",
+      "metaTitle": "Pet Garden Quest - Daftar Pet, Kelangkaan & Kemampuan",
+      "metaDescription": "Panduan lengkap pet Garden Quest: daftar lengkap pet, kelangkaan, kemampuan, cara mendapatkan pet, dan pet terbaik untuk dilengkapi demi bertani dan koleksi.",
+      "categoryLabel": "PET",
+      "whatIs": "Apa itu Pet Garden Quest?",
+      "whatIsDescription": "Pet Garden Quest adalah pendamping yang dapat dilengkapi yang mendukung aktivitas bertani sekaligus menjadi tujuan koleksi. Hub ini mencakup daftar pet, kelangkaan, kemampuan, dan cara mendapatkan setiap pet.",
+      "why": "Mengapa mengumpulkan pet Garden Quest?",
+      "whySteps": {
+        "step1Title": "Tingkatkan Pertanian Anda",
+        "step1Description": "Lengkapi pet dengan kemampuan yang meningkatkan hasil panen, mutasi, dan pengumpulan",
+        "step2Title": "Atur Loadout",
+        "step2Description": "Padukan pet berdasarkan peran untuk mencakup pertanian, koleksi, dan dukungan peluang Rainbow",
+        "step3Title": "Lengkapi Koleksi Anda",
+        "step3Description": "Lacak kelangkaan pet dari pendamping biasa hingga pet Mythic seperti Unicorn"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Pet"
+    },
+    "fishing": {
+      "title": "Memancing Garden Quest",
+      "description": "Panduan memancing Garden Quest: cara membuka fitur memancing, penggunaan umpan, daftar lengkap ikan, lokasi, dan hadiah memancing terbaik.",
+      "metaTitle": "Memancing Garden Quest - Daftar Ikan, Umpan & Hadiah",
+      "metaDescription": "Panduan lengkap memancing Garden Quest: buka fitur memancing, gunakan umpan, temukan semua ikan, jelajahi lokasi memancing, dan dapatkan hadiah memancing terbaik dalam petualangan bertani Roblox.",
+      "categoryLabel": "MEMANCING",
+      "whatIs": "Apa itu Memancing Garden Quest?",
+      "whatIsDescription": "Memancing Garden Quest adalah aktivitas sampingan mandiri yang terpisah dari bercocok tanam dan pet. Hub ini membahas akses memancing, umpan, daftar lengkap ikan, lokasi memancing, dan rute hadiah.",
+      "why": "Mengapa harus memancing di Garden Quest?",
+      "whySteps": {
+        "step1Title": "Kumpulkan Ikan",
+        "step1Description": "Bangun koleksi ikanmu dan selesaikan misi di tepi kolam",
+        "step2Title": "Dapatkan Hadiah",
+        "step2Description": "Tukarkan hasil tangkapan dengan mata uang, perlengkapan, dan hadiah memancing eksklusif",
+        "step3Title": "Jelajahi Lokasi",
+        "step3Description": "Temukan tempat memancing terbaik dan strategi umpan untuk ikan langka"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Memancing"
+    },
+    "items": {
+      "title": "Item Garden Quest",
+      "description": "Panduan item Garden Quest: benih, tanaman, alat, perlengkapan, dan hadiah beserta waktu tumbuh, nilai jual, dan tips penggunaan.",
+      "metaTitle": "Item Garden Quest - Benih, Tanaman, Alat & Perlengkapan",
+      "metaDescription": "Database lengkap item Garden Quest: benih, tanaman, alat, perlengkapan, dan hadiah. Pelajari waktu tumbuh, nilai jual, dan item terbaik untuk digunakan dalam petualangan bertanimu.",
+      "categoryLabel": "ITEM",
+      "whatIs": "Apa itu Item Garden Quest?",
+      "whatIsDescription": "Item Garden Quest mencakup benih, tanaman, alat, perlengkapan, dan hadiah yang membentuk alur bertani. Hub ini melacak sumber item, waktu tumbuh, nilai jual, dan item terbaik untuk setiap tahap perkembangan.",
+      "why": "Mengapa harus memeriksa item Garden Quest?",
+      "whySteps": {
+        "step1Title": "Pilih Tanaman Terbaik",
+        "step1Description": "Bandingkan waktu tumbuh benih dan nilai jual untuk memaksimalkan keuntungan awal",
+        "step2Title": "Tingkatkan Perlengkapanmu",
+        "step2Description": "Pilih alat dan perlengkapan yang tepat untuk mempercepat proses bertani dan bergerak",
+        "step3Title": "Lacak Hadiah",
+        "step3Description": "Pelajari di mana item didapatkan dan cara membuka tanaman serta perlengkapan langka"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Item"
+    }
   }
 }

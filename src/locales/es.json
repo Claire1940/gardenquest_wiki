@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Garden Quest - Códigos, cultivos y fecha de lanzamiento",
+      "description": "La Wiki de Garden Quest sigue las novedades de lanzamiento de Roblox, códigos, cultivos, misiones, mascotas, pesca, equipamiento y consejos para principiantes para que los jugadores puedan prepararse antes del lanzamiento.",
+      "keywords": "garden quest, roblox, códigos, cultivos, misiones, mascotas, pesca, equipamiento, fecha de lanzamiento",
+      "ogTitle": "Wiki de Garden Quest - Códigos, cultivos y fecha de lanzamiento",
+      "ogDescription": "La Wiki de Garden Quest sigue las novedades de lanzamiento de Roblox, códigos, cultivos, misiones, mascotas, pesca, equipamiento y consejos para principiantes para que los jugadores puedan prepararse antes del lanzamiento.",
+      "twitterTitle": "Wiki de Garden Quest - Códigos, cultivos y fecha de lanzamiento",
+      "twitterDescription": "La Wiki de Garden Quest sigue las novedades de lanzamiento de Roblox, códigos, cultivos, misiones, mascotas, pesca, equipamiento y consejos para principiantes para esta aventura agrícola de Roblox."
+    }
+  },
   "nav": {
     "guide": "Guía",
     "release": "Lanzamiento",
@@ -7,5 +18,651 @@
     "pets": "Mascotas",
     "fishing": "Pesca",
     "items": "Objetos"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "Próxima aventura agrícola de Roblox",
+    "title": "Wiki de Garden Quest",
+    "description": "Garden Quest es una próxima aventura agrícola de Roblox donde los jugadores se preparan para semillas, misiones, mascotas, pesca, equipamiento y el progreso de su jardín. Esta wiki sigue los enlaces oficiales, novedades de lanzamiento, códigos y rutas para principiantes a medida que se confirman los detalles.",
+    "getFreeCodesCTA": "Conseguir códigos gratis",
+    "playOnRobloxCTA": "Unirse al grupo de Roblox",
+    "stats": {
+      "stat1": {
+        "value": "27 de junio",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat2": {
+        "value": "Roblox",
+        "label": "Plataforma"
+      },
+      "stat3": {
+        "value": "2,05 K",
+        "label": "Suscriptores de YouTube"
+      },
+      "stat4": {
+        "value": "2",
+        "label": "Videos oficiales"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Garden Quest",
+    "description": "Garden Quest es una próxima aventura agrícola de Roblox centrada en plantar semillas, cultivar cosechas, criar mascotas, pescar, visitar la tienda de equipamiento y decorar tu parcela de jardín."
+  },
+  "tools": {
+    "title": "Garden Quest",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para seguir los enlaces de lanzamiento, códigos, pasos para principiantes y semillas de Garden Quest antes del lanzamiento.",
+    "cards": [
+      {
+        "icon": "Rocket",
+        "title": "Enlaces de lanzamiento de Garden Quest",
+        "description": "Comunidad oficial de Roblox, Discord, YouTube y la fecha de lanzamiento del 27 de junio."
+      },
+      {
+        "icon": "Gift",
+        "title": "Códigos de Garden Quest",
+        "description": "Códigos activos, códigos expirados y fuentes oficiales de distribución de códigos en el lanzamiento."
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Guía de Garden Quest para principiantes",
+        "description": "Pasos para tu primera sesión, desde la comunidad oficial de Roblox hasta tus primeras semillas."
+      },
+      {
+        "icon": "Sprout",
+        "title": "Semillas y cultivos de Garden Quest",
+        "description": "Lista de niveles de semillas y cultivos basada en el tiempo de crecimiento y el valor de venta."
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Mascotas de Garden Quest",
+        "description": "Ciervo, petirrojo, unicornio y el sistema de equipamiento de mascotas mostrado en los avances de Garden Quest."
+      },
+      {
+        "icon": "Fish",
+        "title": "Pesca en Garden Quest",
+        "description": "Cómo funciona el ciclo de pesca junto al estanque en Garden Quest, con accesos, capturas y recompensas."
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Tienda de equipamiento de Garden Quest",
+        "description": "Herramientas, equipamiento y el menú de la tienda de equipamiento que dan forma al progreso inicial en Garden Quest."
+      },
+      {
+        "icon": "Home",
+        "title": "Vivienda en Garden Quest",
+        "description": "Casas, luces, muebles, fuentes e ideas de decoración para tu parcela de Garden Quest."
+      }
+    ]
+  },
+  "modules": {
+    "gardenQuestReleaseAndPlayLink": {
+      "title": "Fecha de lanzamiento y enlaces oficiales para jugar a Garden Quest",
+      "intro": "Garden Quest es un juego de granja de Roblox desarrollado por Garden Quest Studio. Comienza desde la comunidad oficial de Roblox y luego sigue el YouTube y Discord del estudio para obtener actualizaciones de lanzamiento, avances, códigos y enlaces para jugar.",
+      "items": [
+        {
+          "icon": "Calendar",
+          "label": "Fecha de lanzamiento",
+          "value": "27 de junio de 2026",
+          "description": "El avance oficial de Garden Quest indica que el lanzamiento en Roblox será el 27 de junio."
+        },
+        {
+          "icon": "Users",
+          "label": "Comunidad oficial de Roblox",
+          "value": "Comunidad de Garden Quest en Roblox",
+          "description": "Usa el ID de comunidad 124192767 como punto de partida oficial de Roblox para Garden Quest.",
+          "href": "https://www.roblox.com/share/g/124192767"
+        },
+        {
+          "icon": "Video",
+          "label": "Canal oficial de YouTube",
+          "value": "@GardenQuestStudio",
+          "description": "El canal de Garden Quest Studio publica tráileres, shorts y adelantos del juego.",
+          "href": "https://www.youtube.com/@GardenQuestStudio"
+        },
+        {
+          "icon": "MessageCircle",
+          "label": "Discord oficial",
+          "value": "discord.gg/gardenquest",
+          "description": "El Discord de Garden Quest es el centro principal para anuncios, distribución de códigos y avisos de lanzamiento.",
+          "href": "https://discord.gg/gardenquest"
+        },
+        {
+          "icon": "Film",
+          "label": "Tráiler oficial",
+          "value": "Tráiler de jugabilidad y fecha de lanzamiento",
+          "description": "El tráiler presenta la jugabilidad de Garden Quest y la información de la fecha de lanzamiento en una sola fuente.",
+          "href": "https://www.youtube.com/watch?v=GMZc0ad8TKE"
+        }
+      ]
+    },
+    "gardenQuestCodes": {
+      "title": "Códigos de Garden Quest",
+      "intro": "El seguimiento de códigos de Garden Quest comienza con el Discord oficial, el canal de YouTube de Garden Quest Studio, el tráiler oficial y la comunidad de Roblox. Los códigos se copian exactamente como los publican las fuentes oficiales.",
+      "sections": [
+        {
+          "heading": "Códigos activos",
+          "status": "launch-ready",
+          "emptyText": "No se enumeran códigos activos de Garden Quest antes del lanzamiento. Vuelve a consultar el día del lanzamiento."
+        },
+        {
+          "heading": "Códigos expirados",
+          "status": "vacío",
+          "emptyText": "Aún no se enumeran códigos expirados de Garden Quest."
+        },
+        {
+          "heading": "Fuentes oficiales de códigos",
+          "status": "lista de seguimiento",
+          "sources": [
+            {
+              "icon": "MessageCircle",
+              "name": "Discord de Garden Quest",
+              "description": "Lugar principal para estar atento a anuncios de lanzamiento, distribución de códigos y avisos de recompensas.",
+              "href": "https://discord.gg/gardenquest"
+            },
+            {
+              "icon": "Video",
+              "name": "YouTube de Garden Quest Studio",
+              "description": "Canal oficial para videos, shorts, tráileres y avances de actualizaciones de Garden Quest.",
+              "href": "https://www.youtube.com/@GardenQuestStudio"
+            },
+            {
+              "icon": "Film",
+              "name": "Tráiler oficial",
+              "description": "Fuente del tráiler de fecha de lanzamiento y jugabilidad para obtener información sobre el período de lanzamiento.",
+              "href": "https://www.youtube.com/watch?v=GMZc0ad8TKE"
+            },
+            {
+              "icon": "Users",
+              "name": "Comunidad de Roblox",
+              "description": "Ruta oficial de la comunidad de Roblox para el lanzamiento de Garden Quest y enlaces de la comunidad.",
+              "href": "https://www.roblox.com/share/g/124192767"
+            }
+          ]
+        },
+        {
+          "heading": "Reglas para usar códigos",
+          "status": "consejos-para-jugadores",
+          "tips": [
+            "Copia los códigos de Garden Quest exactamente como los publiquen las fuentes oficiales.",
+            "Revisa los espacios, las mayúsculas y la puntuación antes de canjearlos.",
+            "Usa la comunidad oficial de Roblox y Discord antes de confiar en cualquier lista de códigos republicada."
+          ]
+        }
+      ]
+    },
+    "gardenQuestBeginnerGuide": {
+      "title": "Guía de Garden Quest para principiantes",
+      "intro": "Garden Quest se basa en un ciclo inicial de jardinería: entra a través de la ruta oficial de Roblox, sigue los anuncios de lanzamiento, planta semillas, cultiva cosechas y aprende los primeros sistemas que se muestran en los avances oficiales.",
+      "steps": [
+        {
+          "title": "Comienza desde la comunidad oficial de Roblox",
+          "description": "Abre primero la comunidad de Garden Quest en Roblox y usa la ruta oficial de la comunidad para acceder al lanzamiento.",
+          "href": "https://www.roblox.com/share/g/124192767"
+        },
+        {
+          "title": "Únete al Discord de Garden Quest",
+          "description": "Usa la invitación de Discord para seguir los anuncios de lanzamiento, la entrega de códigos y los avisos de la comunidad antes de entrar al juego.",
+          "href": "https://discord.gg/gardenquest"
+        },
+        {
+          "title": "Mira el tráiler oficial",
+          "description": "El tráiler muestra la jugabilidad y la fecha de lanzamiento de Garden Quest, lo que lo convierte en el mejor primer avance antes del lanzamiento.",
+          "href": "https://www.youtube.com/watch?v=GMZc0ad8TKE"
+        },
+        {
+          "title": "Sigue los Shorts de Garden Quest Studio",
+          "description": "Los shorts oficiales muestran avances del juego en desarrollo, incluidos clips de plantación de semillas de Garden Quest.",
+          "href": "https://www.youtube.com/shorts/7cCcc6p5iW0"
+        },
+        {
+          "title": "Planta tus primeras semillas",
+          "description": "La plantación de semillas aparece en los avances de Garden Quest, incluido un clip de plantación de semillas de nabo que muestra el ciclo de cultivo.",
+          "href": "https://www.youtube.com/shorts/SeF_DzvoVA4"
+        },
+        {
+          "title": "Construye en torno al ciclo de jardinería",
+          "description": "Enfoca la primera sesión en plantar, cultivar, verificar el progreso de las cosechas y aprender dónde ubica Garden Quest las herramientas y los menús principales del jardín."
+        }
+      ],
+      "quickTips": [
+        "Entra a Garden Quest a través de la comunidad oficial de Roblox, no desde enlaces de juegos aleatorios.",
+        "Sigue el Discord y YouTube oficiales para que los códigos de lanzamiento y las actualizaciones te lleguen primero.",
+        "Comienza con los cultivos que se muestran en los avances oficiales, como el nabo, antes de experimentar.",
+        "Mantén tu primera sesión simple: planta, riega, cosecha y aprende a usar los menús."
+      ]
+    },
+    "gardenQuestSeedsAndCrops": {
+      "title": "Lista de niveles de semillas y cultivos de Garden Quest",
+      "intro": "El seguimiento de semillas de Garden Quest comienza con los cultivos mostrados en los avances y se expande a medida que los jugadores recopilan estadísticas de cultivos en tiempo real. El nabo es el primer cultivo destacado porque aparece en un avance de plantación de Garden Quest.",
+      "tiers": [
+        {
+          "tier": "Cultivo de los avances",
+          "label": "Mostrado en imágenes de Garden Quest",
+          "description": "Los cultivos de este nivel aparecen en los avances de Garden Quest y se les debe hacer un seguimiento prioritario en el lanzamiento.",
+          "crops": [
+            {
+              "name": "Nabo",
+              "type": "Semilla / Cultivo",
+              "preview": "Plantación",
+              "use": "Seguimiento inicial de cultivos y preparación del jardín inicial",
+              "stats": [
+                "Tiempo de crecimiento",
+                "Valor de venta",
+                "Disponibilidad de semillas",
+                "Valor de mejora"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "Seguimiento de lanzamiento",
+          "label": "Criterios de la lista de niveles",
+          "description": "Los cultivos de Garden Quest deben clasificarse por su valor práctico en lugar de por conjeturas.",
+          "crops": [
+            {
+              "name": "Cultivos de crecimiento rápido",
+              "type": "Regla de clasificación",
+              "preview": "Comparar el tiempo de crecimiento después del lanzamiento",
+              "use": "Ideal para ciclos iniciales de dinero y una rápida expansión del jardín",
+              "stats": [
+                "Tiempo de crecimiento",
+                "Frecuencia de cosecha",
+                "Costo de la semilla",
+                "Valor de venta"
+              ]
+            },
+            {
+              "name": "Cultivos de alto valor",
+              "type": "Regla de clasificación",
+              "preview": "Comparar el valor de venta después del lanzamiento",
+              "use": "Ideal para ganancias a largo plazo y mejoras",
+              "stats": [
+                "Valor de venta",
+                "Disponibilidad",
+                "Valor de mejora",
+                "Valor de replantación"
+              ]
+            },
+            {
+              "name": "Cultivos raros o limitados",
+              "type": "Regla de clasificación",
+              "preview": "Rastrear las recompensas de eventos y actualizaciones oficiales",
+              "use": "Ideal para el valor de colección y el progreso del evento",
+              "stats": [
+                "Fuente de obtención",
+                "Disponibilidad limitada",
+                "Uso en eventos",
+                "Valor de intercambio o colección"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "gardenQuestPetsGuide": {
+      "title": "Guía de mascotas de Garden Quest",
+      "intro": "Las mascotas son compañeras de jardín equipables que apoyan el ciclo de cultivo de Garden Quest y también sirven como objetivos de colección. El Unicornio es la mascota confirmada más clara hasta ahora: una mascota mítica cuyo texto de información la muestra trotando por el jardín y duplicando la probabilidad de que las plantas y frutas se vuelvan Arcoíris.",
+      "items": [
+        {
+          "icon": "Footprints",
+          "name": "Ciervo",
+          "category": "Mascota",
+          "role": "Compañero de jardín",
+          "detail": "Se muestra en la alineación de mascotas activas de Garden Quest junto a Robin y el Unicornio.",
+          "player_use": "Rastrea como una ranura de mascota equipable para el soporte del jardín y el progreso de la colección."
+        },
+        {
+          "icon": "Bird",
+          "name": "Robin",
+          "category": "Mascota",
+          "role": "Compañero de jardín",
+          "detail": "Se muestra en la alineación de mascotas activas de Garden Quest junto a Deer y Unicorn.",
+          "player_use": "Rastrea como un compañero del menú de mascotas para comparaciones de colección y soporte de granja."
+        },
+        {
+          "icon": "Star",
+          "name": "Unicorn",
+          "category": "Mascota mítica",
+          "role": "Soporte de probabilidad de arcoíris",
+          "detail": "La información de mascotas de Garden Quest muestra a Unicorn trotando por el jardín y duplicando la probabilidad de que las plantas y frutas se conviertan en Arcoíris.",
+          "player_use": "Úsalo como la carta de mascota principal de valor de mutación al comparar mascotas que mejoran los resultados de la cosecha."
+        },
+        {
+          "icon": "Layers",
+          "name": "3/3 mascotas equipadas",
+          "category": "Equipamiento de mascotas",
+          "role": "Ranuras de mascotas activas",
+          "detail": "El video de avance de Garden Quest muestra un estado completo de 3/3 mascotas equipadas con Deer, Robin y Unicorn.",
+          "player_use": "Compara las ranuras de mascotas activas por rol para que el soporte de cultivo, colección y mutación sea fácil de leer."
+        }
+      ]
+    },
+    "gardenQuestFishingGuide": {
+      "title": "Guía de pesca de Garden Quest",
+      "intro": "La pesca es un sistema independiente de Garden Quest que se muestra en los avances oficiales junto a las mascotas. Esta guía mantiene la pesca separada del cultivo de cosechas, las mascotas, el equipo y la vivienda para que los jugadores puedan encontrar rápidamente el ciclo junto al estanque. Está estructurada en torno al acceso, las capturas, las recompensas y las notas de ruta.",
+      "items": [
+        {
+          "icon": "Fish",
+          "question": "¿Qué es el sistema de pesca de Garden Quest?",
+          "answer": "La pesca es una actividad secundaria independiente que se muestra en el contenido de avance de Garden Quest, separada de sembrar cultivos y equipar mascotas. Usa esta sección cuando quieras el ciclo de pesca de Garden Quest sin tener que buscar entre mascotas, equipo o vivienda."
+        },
+        {
+          "icon": "Link",
+          "question": "¿Cómo se conecta la pesca con las mascotas en Garden Quest?",
+          "answer": "La pesca y las mascotas se muestran juntas en el mismo lanzamiento de contenido de Garden Quest. Las mascotas brindan soporte pasivo para el jardín, mientras que la pesca ofrece a los jugadores otra actividad de colección y recompensa además del cultivo de cosechas."
+        },
+        {
+          "icon": "ListChecks",
+          "question": "¿Qué deberían verificar primero los jugadores de Garden Quest sobre la pesca?",
+          "answer": "Primero verifica el acceso a la pesca de Garden Quest, los nombres de las capturas, los tipos de recompensas y el tiempo de la ruta. Estos son los detalles que más importan al decidir si pescar, cultivar, vender o comprar a continuación."
+        },
+        {
+          "icon": "Trophy",
+          "question": "¿Cómo se organizan las recompensas de pesca de Garden Quest?",
+          "answer": "Las recompensas de pesca de Garden Quest se organizan mejor por nombre de pez, ubicación, tipo de recompensa, rareza y mejor ruta. Esto mantiene la guía útil tanto para los jugadores coleccionistas como para los que se enfocan en un cultivo eficiente."
+        }
+      ]
+    },
+    "gardenQuestGearShopAndTools": {
+      "title": "Guía de herramientas y tienda de equipo de Garden Quest",
+      "intro": "La Tienda de equipo es un sistema de utilidad principal en Garden Quest, que ofrece a los jugadores un lugar dedicado para comprar herramientas y equipo consumible. Esta guía cubre lo que hace cada objeto, cómo ayuda al cultivo o al movimiento, y por qué es importante para la progresión inicial.",
+      "items": [
+        {
+          "icon": "ShoppingCart",
+          "name": "Tienda de equipo",
+          "category": "Tienda",
+          "detail": "Se muestra una Tienda de equipo dedicada en el contenido de avance de Garden Quest.",
+          "player_use": "Úsalo como el centro principal para comparar las herramientas, el equipo, los precios, el inventario y la prioridad de compra de Garden Quest."
+        },
+        {
+          "icon": "LayoutGrid",
+          "name": "Menú de la tienda de equipo",
+          "category": "Interfaz",
+          "detail": "El contenido de avance de Garden Quest presenta la Tienda de equipo como un sistema orientado a la tienda para objetos de equipo.",
+          "player_use": "Revisa el nombre, categoría, efecto y precio del objeto antes de comprar."
+        },
+        {
+          "icon": "Hammer",
+          "name": "Herramientas",
+          "category": "Equipamiento de utilidad",
+          "detail": "El material de vista previa de Garden Quest presenta las herramientas como parte del ciclo de equipamiento y mejoras.",
+          "player_use": "Separa las herramientas de apoyo agrícola de la decoración cosmética para que los jugadores sepan qué ayuda a progresar primero."
+        },
+        {
+          "icon": "Bike",
+          "name": "Scooter de Nabo",
+          "category": "Equipamiento de movilidad",
+          "detail": "Un Scooter de Nabo aparece en el contenido de vista previa de Garden Quest.",
+          "player_use": "Registrar como equipamiento de movimiento para cruzar el mapa del jardín y reducir el tiempo de viaje entre los sistemas de Garden Quest."
+        }
+      ]
+    },
+    "gardenQuestHousesAndDecorations": {
+      "title": "Guía de casas y decoraciones de Garden Quest",
+      "intro": "Las casas y la decoración del hogar son una parte visible de Garden Quest, lo que otorga a los jugadores una capa cosmética además de la agricultura, las mascotas, la pesca y el equipamiento. Las decoraciones incluyen luces, sillas, bancos, cuadros, estatuas, fuentes y alimentos, para que los jugadores puedan planificar el estilo de su hogar y jardín en torno a las categorías confirmadas.",
+      "items": [
+        {
+          "icon": "Home",
+          "name": "Casas",
+          "category": "Sistema de hogar",
+          "visual_focus": "Espacios del hogar del jugador",
+          "placement_idea": "Usar como punto de anclaje para diseños decorativos y la identidad del jardín en Garden Quest."
+        },
+        {
+          "icon": "Sparkles",
+          "name": "Jugabilidad de hogar y decoración",
+          "category": "Sistema de decoración",
+          "visual_focus": "Colocación de cosméticos interiores y exteriores",
+          "placement_idea": "Agrupar decoraciones por función para que las viviendas, los caminos del jardín y las áreas de exhibición sigan siendo fáciles de leer."
+        },
+        {
+          "icon": "Lightbulb",
+          "name": "Luces",
+          "category": "Decoración",
+          "visual_focus": "Iluminación y ambiente",
+          "placement_idea": "Colocar alrededor de caminos, entradas de casas y esquinas de exhibición para que los diseños sean más fáciles de leer."
+        },
+        {
+          "icon": "Sofa",
+          "name": "Sillas y bancos",
+          "category": "Decoración",
+          "visual_focus": "Objetos para sentarse",
+          "placement_idea": "Usar cerca de casas, bordes del jardín y áreas sociales para que la parcela de Garden Quest se sienta habitada."
+        },
+        {
+          "icon": "Frame",
+          "name": "Cuadros y estatuas",
+          "category": "Decoración",
+          "visual_focus": "Objetos de exhibición",
+          "placement_idea": "Usar como decoraciones de punto focal para interiores de casas, paredes exteriores y zonas de exhibición."
+        },
+        {
+          "icon": "Droplet",
+          "name": "Fuentes",
+          "category": "Decoración",
+          "visual_focus": "Elemento acuático",
+          "placement_idea": "Úsalo como pieza central del jardín o como divisor decorativo entre las zonas de cultivo y el hogar."
+        },
+        {
+          "icon": "Utensils",
+          "name": "Alimentos",
+          "category": "Decoración e interacción",
+          "visual_focus": "Comida para comer",
+          "placement_idea": "Úsalo cerca de los diseños del hogar o áreas sociales al construir escenas decorativas acogedoras."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Garden Quest antes del lanzamiento.",
+    "questions": [
+      {
+        "question": "¿Cuándo se lanza Garden Quest en Roblox?",
+        "answer": "Garden Quest está programado para lanzarse en Roblox el 27 de junio de 2026, según el tráiler oficial de Garden Quest."
+      },
+      {
+        "question": "¿Dónde puedo jugar Garden Quest?",
+        "answer": "Garden Quest es un juego de Roblox. Usa la comunidad oficial de Garden Quest en Roblox (ID 124192767) como punto de partida seguro en lugar de enlaces de juego aleatorios."
+      },
+      {
+        "question": "¿Dónde encuentro los códigos de Garden Quest?",
+        "answer": "Los códigos de Garden Quest se anuncian en el Discord oficial de Garden Quest, el canal de YouTube de Garden Quest Studio y el tráiler oficial. Copia siempre los códigos exactamente como se publican."
+      },
+      {
+        "question": "¿Qué puedo hacer en Garden Quest en el lanzamiento?",
+        "answer": "Garden Quest es una aventura agrícola centrada en plantar semillas, cultivar cosechas, criar mascotas, pescar, comprar equipamiento y decorar tu parcela de jardín."
+      },
+      {
+        "question": "¿Es Garden Quest gratis?",
+        "answer": "Garden Quest es una experiencia de Roblox, por lo que sigue el modelo de acceso estándar de Roblox. Únete a través de la comunidad oficial de Garden Quest en Roblox para jugar."
+      },
+      {
+        "question": "¿Cómo me mantengo informado sobre Garden Quest?",
+        "answer": "Sigue el Discord oficial de Garden Quest, el canal de YouTube de Garden Quest Studio y la comunidad de Roblox para recibir noticias del lanzamiento, códigos y actualizaciones."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para comenzar tu Garden Quest?",
+    "description": "¡Únete a la comunidad de Garden Quest en Discord y Roblox para obtener códigos, guías de cultivo y actualizaciones de lanzamiento!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Unirse al grupo de Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Garden Quest",
+    "description": "Tu centro de recursos completo para códigos de Garden Quest, cultivos, misiones, mascotas, pesca, equipamiento y guías para principiantes de la próxima aventura agrícola de Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "youtube": "YouTube",
+    "reddit": "Reddit",
+    "robloxGroup": "Grupo de Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Garden Quest Wiki. No afiliado con los desarrolladores de Garden Quest.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guías de Garden Quest",
+      "description": "Guías completas de Garden Quest que cubren la configuración inicial, la jugabilidad, la progresión y las guías paso a paso para la aventura agrícola de Roblox.",
+      "metaTitle": "Guías de Garden Quest: configuración inicial, jugabilidad y guías paso a paso",
+      "metaDescription": "Domina Garden Quest con guías completas: configuración inicial, consejos de juego, progresión, guías paso a paso y cómo jugar a la aventura agrícola de Roblox.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías de Garden Quest?",
+      "whatIsDescription": "Guías completas de Garden Quest que cubren las mecánicas de juego, la configuración inicial, las rutas de progresión y las guías paso a paso. Aprende todo, desde tus primeras semillas hasta estrategias avanzadas de agricultura, mascotas y pesca.",
+      "why": "¿Por qué leer las guías de Garden Quest?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas básicas",
+        "step1Description": "Comprende los sistemas de agricultura, mascotas, pesca y progresión de Garden Quest y evita errores comunes de principiante",
+        "step2Title": "Progresión rápida",
+        "step2Description": "Sigue rutas comprobadas para hacer crecer tu jardín, ganar monedas y desbloquear equipo rápidamente",
+        "step3Title": "Domina estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para cultivos, misiones, mascotas y objetivos de colección"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "release": {
+      "title": "Lanzamiento de Garden Quest",
+      "description": "Fecha de lanzamiento de Garden Quest, tráiler oficial, comunidad de Roblox, Discord y noticias de lanzamiento de la próxima aventura agrícola.",
+      "metaTitle": "Fecha de lanzamiento, tráiler y enlaces oficiales de Garden Quest",
+      "metaDescription": "Sigue la fecha de lanzamiento de Garden Quest, el tráiler oficial, la comunidad de Roblox, el Discord y las noticias de lanzamiento de la próxima aventura agrícola de Roblox.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento de Garden Quest?",
+      "whatIsDescription": "La cobertura del lanzamiento de Garden Quest sigue la fecha de lanzamiento oficial, el tráiler, la comunidad de Roblox, el Discord y las noticias de la plataforma para que los jugadores estén listos para el debut de la aventura agrícola.",
+      "why": "¿Por qué seguir el lanzamiento de Garden Quest?",
+      "whySteps": {
+        "step1Title": "Conoce la fecha de lanzamiento",
+        "step1Description": "Sigue la fecha de lanzamiento oficial y el tráiler de Garden Quest para jugar desde el primer día",
+        "step2Title": "Usa los enlaces oficiales",
+        "step2Description": "Únete a la comunidad oficial de Roblox y a Discord para acceder al lanzamiento de forma segura y recibir actualizaciones",
+        "step3Title": "Mantente un paso adelante",
+        "step3Description": "Recibe noticias de lanzamiento, nuevos códigos y contenido anticipado tan pronto como se confirmen"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "codes": {
+      "title": "Códigos de Garden Quest",
+      "description": "Últimos códigos activos de Garden Quest para obtener recompensas gratuitas, además de fuentes de códigos activos, caducados y oficiales en el lanzamiento.",
+      "metaTitle": "Códigos de Garden Quest: códigos activos y recompensas",
+      "metaDescription": "Consigue recompensas gratuitas con los códigos activos de Garden Quest. Sigue los códigos activos, los códigos caducados y las fuentes oficiales de nuevos códigos para la aventura agrícola de Roblox.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Garden Quest?",
+      "whatIsDescription": "Los códigos de Garden Quest son cadenas canjeables publicadas por los desarrolladores que otorgan recompensas gratuitas en el lanzamiento. Este centro rastrea los códigos activos, los códigos caducados y las fuentes oficiales donde se lanzan los códigos.",
+      "why": "¿Por qué usar códigos de Garden Quest?",
+      "whySteps": {
+        "step1Title": "Reclamar recompensas gratuitas",
+        "step1Description": "Canjea códigos activos de Garden Quest para obtener bonificaciones de lanzamiento y monedas gratis",
+        "step2Title": "Evitar códigos caducados",
+        "step2Description": "Salta los códigos que ya no funcionan y concéntrate en los activos",
+        "step3Title": "Usar fuentes oficiales",
+        "step3Description": "Sigue el Discord, YouTube y el tráiler para obtener lanzamientos de códigos verificados"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "quests": {
+      "title": "Misiones de Garden Quest",
+      "description": "Guías de misiones de Garden Quest: lista de misiones, misiones diarias y semanales, recompensas y rutas paso a paso para cada cadena de misiones.",
+      "metaTitle": "Misiones de Garden Quest - Lista de misiones, misiones diarias y semanales",
+      "metaDescription": "Guías completas de misiones de Garden Quest: lista completa de misiones, misiones diarias, misiones semanales, recompensas y rutas paso a paso para cada cadena de misiones en la aventura agrícola de Roblox.",
+      "categoryLabel": "MISIONES",
+      "whatIs": "¿Qué son las misiones de Garden Quest?",
+      "whatIsDescription": "Las misiones de Garden Quest son cadenas de objetivos que guían a los jugadores a través de la progresión agrícola, tareas de NPC y misiones especiales. Este centro cubre la lista de misiones, misiones diarias, misiones semanales y recompensas de misiones.",
+      "why": "¿Por qué seguir las misiones de Garden Quest?",
+      "whySteps": {
+        "step1Title": "Ganar recompensas constantes",
+        "step1Description": "Completa misiones diarias y semanales para obtener monedas y bonificaciones de progresión confiables",
+        "step2Title": "Completar cadenas de misiones",
+        "step2Description": "Sigue las rutas de las misiones paso a paso para desbloquear nuevos cultivos, mascotas y áreas",
+        "step3Title": "Evitar quedarse atascado",
+        "step3Description": "Usa guías de misiones para resolver objetivos como cosechar robles y construir fuentes"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de misiones"
+    },
+    "pets": {
+      "title": "Mascotas de Garden Quest",
+      "description": "Guías de mascotas de Garden Quest: lista completa de mascotas, rarezas, habilidades y cómo conseguir las mejores mascotas para tu equipamiento agrícola.",
+      "metaTitle": "Mascotas de Garden Quest - Lista de mascotas, rarezas y habilidades",
+      "metaDescription": "Guías completas de mascotas de Garden Quest: lista completa de mascotas, rarezas, habilidades, cómo obtener mascotas y las mejores mascotas para equipar para la agricultura y la colección.",
+      "categoryLabel": "MASCOTAS",
+      "whatIs": "¿Qué son las mascotas de Garden Quest?",
+      "whatIsDescription": "Las mascotas de Garden Quest son compañeros equipables que apoyan el ciclo agrícola y también sirven como objetivos de colección. Este centro cubre la lista de mascotas, rarezas, habilidades y cómo obtener cada mascota.",
+      "why": "¿Por qué coleccionar mascotas de Garden Quest?",
+      "whySteps": {
+        "step1Title": "Potenciar tu granja",
+        "step1Description": "Equipa mascotas con habilidades que mejoren los resultados de cosecha, mutación y colección",
+        "step2Title": "Crear un equipamiento",
+        "step2Description": "Mezcla mascotas por rol para cubrir la agricultura, la colección y el soporte de probabilidad Arcoíris",
+        "step3Title": "Completa tu colección",
+        "step3Description": "Realiza un seguimiento de las rarezas de las mascotas, desde compañeros comunes hasta mascotas míticas como el Unicornio"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de mascotas"
+    },
+    "fishing": {
+      "title": "Pesca en Garden Quest",
+      "description": "Guías de pesca de Garden Quest: cómo desbloquear la pesca, uso de cebo, lista completa de peces, ubicaciones y las mejores recompensas de pesca.",
+      "metaTitle": "Pesca en Garden Quest - Lista de peces, cebo y recompensas",
+      "metaDescription": "Guías completas de pesca de Garden Quest: desbloquea la pesca, usa cebo, encuentra todos los peces, explora ubicaciones de pesca y obtén las mejores recompensas en la aventura agrícola de Roblox.",
+      "categoryLabel": "PESCA",
+      "whatIs": "¿Qué es la pesca en Garden Quest?",
+      "whatIsDescription": "La pesca en Garden Quest es una actividad secundaria independiente del cultivo y las mascotas. Este centro cubre el acceso a la pesca, el cebo, la lista completa de peces, las ubicaciones de pesca y las rutas de recompensa.",
+      "why": "¿Por qué pescar en Garden Quest?",
+      "whySteps": {
+        "step1Title": "Colecciona peces",
+        "step1Description": "Arma tu colección de peces y completa objetivos junto al estanque",
+        "step2Title": "Gana recompensas",
+        "step2Description": "Intercambia tus capturas por monedas, equipo y recompensas de pesca exclusivas",
+        "step3Title": "Explora ubicaciones",
+        "step3Description": "Encuentra los mejores puntos de pesca y estrategias de cebo para peces raros"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de pesca"
+    },
+    "items": {
+      "title": "Objetos de Garden Quest",
+      "description": "Guías de objetos de Garden Quest: semillas, cultivos, herramientas, equipo y recompensas con tiempo de crecimiento, valor de venta y consejos de uso.",
+      "metaTitle": "Objetos de Garden Quest - Semillas, cultivos, herramientas y equipo",
+      "metaDescription": "Base de datos completa de objetos de Garden Quest: semillas, cultivos, herramientas, equipo y recompensas. Conoce el tiempo de crecimiento, el valor de venta y los mejores objetos para usar en tu aventura agrícola.",
+      "categoryLabel": "OBJETOS",
+      "whatIs": "¿Qué son los objetos de Garden Quest?",
+      "whatIsDescription": "Los objetos de Garden Quest incluyen semillas, cultivos, herramientas, equipo y recompensas que dan forma al ciclo de cultivo. Este centro hace un seguimiento de la procedencia de los objetos, el tiempo de crecimiento, el valor de venta y los mejores objetos para cada etapa de progresión.",
+      "why": "¿Por qué consultar los objetos de Garden Quest?",
+      "whySteps": {
+        "step1Title": "Elige los mejores cultivos",
+        "step1Description": "Compara el tiempo de crecimiento de las semillas y el valor de venta para maximizar las ganancias iniciales",
+        "step2Title": "Mejora tu equipo",
+        "step2Description": "Elige las herramientas y el equipo adecuados para acelerar el cultivo y el movimiento",
+        "step3Title": "Rastrea las recompensas",
+        "step3Description": "Aprende dónde se obtienen los objetos y cómo desbloquear cultivos y equipo raros"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los objetos"
+    }
   }
 }
