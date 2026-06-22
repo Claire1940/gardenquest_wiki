@@ -18,6 +18,10 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   gardenQuestCodes: { field: 'sections', nameKey: 'heading' },
   gardenQuestBeginnerGuide: { field: 'steps', nameKey: 'title' },
   gardenQuestSeedsAndCrops: { field: 'tiers', nameKey: 'tier' },
+  gardenQuestPetsGuide: { field: 'items', nameKey: 'name' },
+  gardenQuestFishingGuide: { field: 'items', nameKey: 'question' },
+  gardenQuestGearShopAndTools: { field: 'items', nameKey: 'name' },
+  gardenQuestHousesAndDecorations: { field: 'items', nameKey: 'name' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
@@ -27,6 +31,10 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
   gardenQuestCodes: ['code', 'active code', 'expired code', 'redeem'],
   gardenQuestBeginnerGuide: ['beginner', 'starter', 'first session', 'tutorial'],
   gardenQuestSeedsAndCrops: ['seed', 'crop', 'turnip', 'tier list', 'growth'],
+  gardenQuestPetsGuide: ['pet', 'deer', 'robin', 'unicorn', 'mythic', 'rainbow', 'loadout'],
+  gardenQuestFishingGuide: ['fishing', 'fish', 'pond', 'catch', 'reward', 'bait'],
+  gardenQuestGearShopAndTools: ['gear shop', 'tool', 'gear', 'scooter', 'shop', 'upgrade'],
+  gardenQuestHousesAndDecorations: ['house', 'home', 'decor', 'decoration', 'furniture', 'fountain', 'layout'],
 }
 
 const FILLER_WORDS = ['garden', 'quest', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']

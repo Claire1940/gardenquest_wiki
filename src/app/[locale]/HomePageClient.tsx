@@ -1,10 +1,11 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
 import {
   ArrowRight,
   BookOpen,
   Check,
+  ChevronDown,
   ExternalLink,
   Sparkles,
 } from "lucide-react";
@@ -60,6 +61,48 @@ function LinkedTitle({
   return <>{children}</>;
 }
 
+// 可折叠的 accordion 条目（用于 Fishing Guide 模块）
+// 使用 CSS grid-rows 动画实现平滑展开，无需 maxHeight
+function FishingAccordionItem({
+  item,
+  defaultOpen = false,
+}: {
+  item: { icon: string; question: string; answer: string };
+  defaultOpen?: boolean;
+}) {
+  const [open, setOpen] = useState(defaultOpen);
+  return (
+    <div className="border border-border rounded-xl overflow-hidden bg-white/5 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+      <button
+        type="button"
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center gap-3 p-4 md:p-5 text-left"
+        aria-expanded={open}
+      >
+        <div className="h-9 w-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+          <DynamicIcon
+            name={item.icon}
+            className="h-4 w-4 text-[hsl(var(--nav-theme-light))]"
+          />
+        </div>
+        <h3 className="flex-1 font-bold text-sm md:text-base">{item.question}</h3>
+        <ChevronDown
+          className={`w-5 h-5 text-muted-foreground flex-shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
+        />
+      </button>
+      <div
+        className={`grid transition-all duration-300 ease-in-out ${open ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+      >
+        <div className="overflow-hidden">
+          <p className="px-4 md:px-5 pb-4 md:pb-5 pl-16 md:pl-[4.25rem] text-sm md:text-base text-muted-foreground">
+            {item.answer}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
   moduleLinkMap: ModuleLinkMap;
@@ -72,6 +115,10 @@ const TOOL_SECTION_IDS = [
   "codes",
   "beginner-guide",
   "seeds-and-crops-tier-list",
+  "pets-guide",
+  "fishing-guide",
+  "gear-shop-tools-guide",
+  "houses-decorations-guide",
 ];
 
 export default function HomePageClient({
@@ -179,6 +226,15 @@ export default function HomePageClient({
   const codeSourcesSection = codeSections.find((s) => s.sources);
   const codeTipsSection = codeSections.find((s) => s.tips);
 
+  // 模块 5-8 数据提取
+  const petItems = (t.modules?.gardenQuestPetsGuide?.items || []) as any[];
+  const fishingItems =
+    (t.modules?.gardenQuestFishingGuide?.items || []) as any[];
+  const gearItems =
+    (t.modules?.gardenQuestGearShopAndTools?.items || []) as any[];
+  const houseItems =
+    (t.modules?.gardenQuestHousesAndDecorations?.items || []) as any[];
+
   return (
     <div className="home-shell min-h-screen bg-background text-foreground">
       {/* Structured data */}
@@ -262,7 +318,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Tools Grid - 4 Navigation Cards（位于视频区之后、Latest Updates 之前） */}
+      {/* Tools Grid - 8 Navigation Cards（位于视频区之后、Latest Updates 之前） */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
@@ -680,6 +736,268 @@ export default function HomePageClient({
           className="md:hidden"
         />
       )}
+
+      {/* Module 5: Pets Guide (card-list) */}
+      <section
+        id="pets-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["gardenQuestPetsGuide"]}
+                locale={locale}
+              >
+                {t.modules.gardenQuestPetsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.gardenQuestPetsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {petItems.map((pet: any, index: number) => (
+              <div
+                key={index}
+                className="flex flex-col p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="h-11 w-11 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                    <DynamicIcon
+                      name={pet.icon}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))] truncate">
+                      {pet.name}
+                    </h3>
+                    <span className="text-xs text-muted-foreground">
+                      {pet.category}
+                    </span>
+                  </div>
+                </div>
+                <span className="self-start text-xs px-2 py-1 mb-3 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                  {pet.role}
+                </span>
+                <p className="text-sm text-muted-foreground mb-4 flex-1">
+                  {pet.detail}
+                </p>
+                <div className="flex items-start gap-2 pt-3 border-t border-border">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                  <p className="text-sm">{pet.player_use}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: 模块之间的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Fishing Guide (accordion) */}
+      <section
+        id="fishing-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["gardenQuestFishingGuide"]}
+                locale={locale}
+              >
+                {t.modules.gardenQuestFishingGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.gardenQuestFishingGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3 max-w-3xl mx-auto">
+            {fishingItems.map((item: any, index: number) => (
+              <FishingAccordionItem
+                key={index}
+                item={item}
+                defaultOpen={index === 0}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Gear Shop and Tools Guide (table) */}
+      <section
+        id="gear-shop-tools-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["gardenQuestGearShopAndTools"]}
+                locale={locale}
+              >
+                {t.modules.gardenQuestGearShopAndTools.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.gardenQuestGearShopAndTools.intro}
+            </p>
+          </div>
+
+          {/* 桌面端表格 */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead className="bg-[hsl(var(--nav-theme)/0.1)]">
+                <tr>
+                  <th className="text-left p-4 font-semibold">Item</th>
+                  <th className="text-left p-4 font-semibold">Category</th>
+                  <th className="text-left p-4 font-semibold">Detail</th>
+                  <th className="text-left p-4 font-semibold">Player Use</th>
+                </tr>
+              </thead>
+              <tbody>
+                {gearItems.map((gear: any, index: number) => (
+                  <tr
+                    key={index}
+                    className="border-t border-border hover:bg-white/5 transition-colors"
+                  >
+                    <td className="p-4 align-top">
+                      <div className="flex items-center gap-2.5">
+                        <div className="h-8 w-8 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                          <DynamicIcon
+                            name={gear.icon}
+                            className="h-4 w-4 text-[hsl(var(--nav-theme-light))]"
+                          />
+                        </div>
+                        <span className="font-bold text-[hsl(var(--nav-theme-light))]">
+                          {gear.name}
+                        </span>
+                      </div>
+                    </td>
+                    <td className="p-4 align-top">
+                      <span className="inline-block text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                        {gear.category}
+                      </span>
+                    </td>
+                    <td className="p-4 align-top text-muted-foreground">
+                      {gear.detail}
+                    </td>
+                    <td className="p-4 align-top text-muted-foreground">
+                      {gear.player_use}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* 移动端堆叠卡片 */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {gearItems.map((gear: any, index: number) => (
+              <div
+                key={index}
+                className="p-5 bg-white/5 border border-border rounded-xl"
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="h-9 w-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                    <DynamicIcon
+                      name={gear.icon}
+                      className="h-4 w-4 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <h3 className="font-bold text-[hsl(var(--nav-theme-light))] flex-1">
+                    {gear.name}
+                  </h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                    {gear.category}
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground mb-2">{gear.detail}</p>
+                <p className="text-sm">{gear.player_use}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 8: 模块之间的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: Houses and Decorations Guide (gallery-cards) */}
+      <section
+        id="houses-decorations-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["gardenQuestHousesAndDecorations"]}
+                locale={locale}
+              >
+                {t.modules.gardenQuestHousesAndDecorations.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.gardenQuestHousesAndDecorations.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {houseItems.map((decor: any, index: number) => (
+              <div
+                key={index}
+                className="flex flex-col p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="h-10 w-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                    <DynamicIcon
+                      name={decor.icon}
+                      className="h-5 w-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-bold truncate">{decor.name}</h3>
+                    <span className="text-xs text-muted-foreground">
+                      {decor.category}
+                    </span>
+                  </div>
+                </div>
+                <span className="self-start text-xs px-2 py-1 mb-3 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                  {decor.visual_focus}
+                </span>
+                <p className="text-sm text-muted-foreground flex-1">
+                  {decor.placement_idea}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Latest Updates Section（保留，位于模块导航与模块内容之后） */}
       <LatestGuidesAccordion articles={latestArticles} locale={locale} max={12} />

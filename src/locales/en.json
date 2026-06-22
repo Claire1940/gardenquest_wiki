@@ -79,6 +79,26 @@
         "icon": "Sprout",
         "title": "Garden Quest Seeds & Crops",
         "description": "Seed and crop tier list built around growth time and sell value."
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Garden Quest Pets",
+        "description": "Deer, Robin, Unicorn, and the pet-loadout system shown in Garden Quest previews."
+      },
+      {
+        "icon": "Fish",
+        "title": "Garden Quest Fishing",
+        "description": "How the Garden Quest pond-side fishing loop works, with access, catches, and rewards."
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Garden Quest Gear Shop",
+        "description": "Tools, gear, and the Gear Shop menu that shape Garden Quest early progression."
+      },
+      {
+        "icon": "Home",
+        "title": "Garden Quest Housing",
+        "description": "Houses, lights, furniture, fountains, and decoration ideas for your Garden Quest plot."
       }
     ]
   },
@@ -264,6 +284,159 @@
               "stats": ["Drop source", "Limited availability", "Event use", "Trading or collection value"]
             }
           ]
+        }
+      ]
+    },
+    "gardenQuestPetsGuide": {
+      "title": "Garden Quest Pets Guide",
+      "intro": "Pets are equipable garden companions that support the Garden Quest farming loop and double as collection goals. Unicorn is the clearest confirmed pet so far: a Mythic pet whose info text shows it trotting around the garden and doubling the chance for plants and fruit to turn Rainbow.",
+      "items": [
+        {
+          "icon": "Footprints",
+          "name": "Deer",
+          "category": "Pet",
+          "role": "Garden companion",
+          "detail": "Shown in the active Garden Quest pet lineup beside Robin and Unicorn.",
+          "player_use": "Track as an equipable pet slot for garden support and collection progress."
+        },
+        {
+          "icon": "Bird",
+          "name": "Robin",
+          "category": "Pet",
+          "role": "Garden companion",
+          "detail": "Shown in the active Garden Quest pet lineup beside Deer and Unicorn.",
+          "player_use": "Track as a pet-menu companion for collection and farm-support comparisons."
+        },
+        {
+          "icon": "Star",
+          "name": "Unicorn",
+          "category": "Mythic Pet",
+          "role": "Rainbow chance support",
+          "detail": "Garden Quest pet info shows Unicorn trotting around the garden and doubling the chance for plants and fruit to turn Rainbow.",
+          "player_use": "Use as the main mutation-value pet card when comparing pets that improve harvest outcomes."
+        },
+        {
+          "icon": "Layers",
+          "name": "3/3 Pets Equipped",
+          "category": "Pet Loadout",
+          "role": "Active pet slots",
+          "detail": "Garden Quest preview footage shows a full 3/3 equipped pet state with Deer, Robin, and Unicorn.",
+          "player_use": "Compare active pet slots by role so farming, collection, and mutation support stay easy to read."
+        }
+      ]
+    },
+    "gardenQuestFishingGuide": {
+      "title": "Garden Quest Fishing Guide",
+      "intro": "Fishing is a standalone Garden Quest system shown in official previews alongside pets. This guide keeps fishing separate from crop farming, pets, gear, and housing so players can find the pond-side loop quickly. It is structured around access, catches, rewards, and route notes.",
+      "items": [
+        {
+          "icon": "Fish",
+          "question": "What is the Garden Quest fishing system?",
+          "answer": "Fishing is a standalone side activity shown in Garden Quest preview content, separate from planting crops and equipping pets. Use this section when you want the Garden Quest fishing loop without digging through pets, gear, or housing."
+        },
+        {
+          "icon": "Link",
+          "question": "How does fishing connect with pets in Garden Quest?",
+          "answer": "Fishing and pets are previewed together in the same Garden Quest content drop. Pets cover passive garden support, while fishing gives players another collection-and-reward activity beside crop farming."
+        },
+        {
+          "icon": "ListChecks",
+          "question": "What should Garden Quest players check first about fishing?",
+          "answer": "Check Garden Quest fishing access, catch names, reward types, and route timing first. These are the details that matter most when deciding whether to fish, farm, sell, or shop next."
+        },
+        {
+          "icon": "Trophy",
+          "question": "How are Garden Quest fishing rewards organized?",
+          "answer": "Garden Quest fishing rewards are best organized by fish name, location, reward type, rarity, and best route. This keeps the guide useful for both collection players and players focused on efficient farming."
+        }
+      ]
+    },
+    "gardenQuestGearShopAndTools": {
+      "title": "Garden Quest Gear Shop and Tools Guide",
+      "intro": "The Gear Shop is a core utility system in Garden Quest, giving players a dedicated place to buy tools and spendable gear. This guide covers what each item does, how it supports farming or movement, and why it matters for early progression.",
+      "items": [
+        {
+          "icon": "ShoppingCart",
+          "name": "Gear Shop",
+          "category": "Shop",
+          "detail": "A dedicated Gear Shop is shown in Garden Quest preview content.",
+          "player_use": "Use as the main hub for comparing Garden Quest tools, gear, prices, stock, and purchase priority."
+        },
+        {
+          "icon": "LayoutGrid",
+          "name": "Gear Shop Menu",
+          "category": "Interface",
+          "detail": "Garden Quest preview content presents the Gear Shop as a shop-facing system for gear items.",
+          "player_use": "Check item name, category, effect, and price before buying."
+        },
+        {
+          "icon": "Hammer",
+          "name": "Tools",
+          "category": "Utility Gear",
+          "detail": "Garden Quest preview material frames tools as part of the gear and upgrade loop.",
+          "player_use": "Separate farming-support tools from cosmetic decoration so players know what helps progress first."
+        },
+        {
+          "icon": "Bike",
+          "name": "Turnip Scooter",
+          "category": "Mobility Gear",
+          "detail": "A Turnip Scooter appears in Garden Quest preview content.",
+          "player_use": "Track as movement gear for crossing the garden map and reducing travel time between Garden Quest systems."
+        }
+      ]
+    },
+    "gardenQuestHousesAndDecorations": {
+      "title": "Garden Quest Houses and Decorations Guide",
+      "intro": "Houses and home decoration are a visible part of Garden Quest, giving players a cosmetic layer beside farming, pets, fishing, and gear. Decorations include lights, chairs, benches, paintings, statues, fountains, and food items, so players can plan home and garden style around confirmed categories.",
+      "items": [
+        {
+          "icon": "Home",
+          "name": "Houses",
+          "category": "Home System",
+          "visual_focus": "Player home spaces",
+          "placement_idea": "Use as the anchor point for decorative layouts and Garden Quest garden identity."
+        },
+        {
+          "icon": "Sparkles",
+          "name": "Home and Decor Gameplay",
+          "category": "Decoration System",
+          "visual_focus": "Interior and exterior cosmetic placement",
+          "placement_idea": "Group decorations by function so housing, garden paths, and display areas stay readable."
+        },
+        {
+          "icon": "Lightbulb",
+          "name": "Lights",
+          "category": "Decor",
+          "visual_focus": "Lighting and atmosphere",
+          "placement_idea": "Place around paths, home entrances, and display corners to make layouts easier to read."
+        },
+        {
+          "icon": "Sofa",
+          "name": "Chairs and Benches",
+          "category": "Decor",
+          "visual_focus": "Seating objects",
+          "placement_idea": "Use near houses, garden edges, and social areas to make the Garden Quest plot feel lived in."
+        },
+        {
+          "icon": "Frame",
+          "name": "Paintings and Statues",
+          "category": "Decor",
+          "visual_focus": "Display objects",
+          "placement_idea": "Use as focal-point decorations for house interiors, exterior walls, and showcase zones."
+        },
+        {
+          "icon": "Droplet",
+          "name": "Fountains",
+          "category": "Decor",
+          "visual_focus": "Water feature",
+          "placement_idea": "Use as a central garden piece or as a decorative divider between farming and home areas."
+        },
+        {
+          "icon": "Utensils",
+          "name": "Food Items",
+          "category": "Decor and Interaction",
+          "visual_focus": "Food to eat",
+          "placement_idea": "Use near home layouts or social areas when building cozy decorative scenes."
         }
       ]
     }

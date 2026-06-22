@@ -60,6 +60,27 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Fish: LucideIcons.Fish,
   PawPrint: LucideIcons.PawPrint,
 
+  // 宠物 / 动物图标
+  Footprints: LucideIcons.Footprints,
+  Bird: LucideIcons.Bird,
+
+  // 装备商店 / 工具图标
+  ShoppingCart: LucideIcons.ShoppingCart,
+  LayoutGrid: LucideIcons.LayoutGrid,
+  Bike: LucideIcons.Bike,
+
+  // 钓鱼 / 奖励图标
+  Link: LucideIcons.Link,
+  ListChecks: LucideIcons.ListChecks,
+  Trophy: LucideIcons.Trophy,
+
+  // 房屋 / 装饰图标
+  Sofa: LucideIcons.Sofa,
+  Lightbulb: LucideIcons.Lightbulb,
+  Frame: LucideIcons.Frame,
+  Utensils: LucideIcons.Utensils,
+  Layers: LucideIcons.Layers,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
